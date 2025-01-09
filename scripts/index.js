@@ -47,45 +47,6 @@ let filters = [
   }
 ];
 
-// let courses1 = [
-//   {
-//     buttonName: "CSE 110",
-//     id: "cse110",
-//     class: "courses finished",
-//     ariaLabel: "CSE 110"
-//   },
-//   {
-//     buttonName: "WDD 130",
-//     id: "wdd130",
-//     class: "courses finished",
-//     ariaLabel: "WDD 130"
-//   },
-//   {
-//     buttonName: "CSE 111",
-//     id: "cse111",
-//     class: "courses finished",
-//     ariaLabel: "CSE 111"
-//   },
-//   {
-//     buttonName: "CSE 210",
-//     id: "cse210",
-//     class: "courses in-progress",
-//     ariaLabel: "CSE 210"
-//   },
-//   {
-//     buttonName: "WDD 131",
-//     id: "wdd131",
-//     class: "courses finished",
-//     ariaLabel: "WDD 131"
-//   },
-//   {
-//     buttonName: "WDD 231",
-//     id: "wdd231",
-//     class: "courses in-progress",
-//     ariaLabel: "WDD 231"
-//   }
-// ];
-
 const courses = [
   {
     subject: 'CSE',
@@ -176,8 +137,7 @@ createCourseList(courses);
 function createCourseList(arrays) {
   for (let i = 0; i < arrays.length; i++) {
     let abbrev = `${arrays[i].subject} ${arrays[i].number}`;
-    let credits = arrays[i].credits;
-    const totalCredits = arrays.reduce((acc, course) => acc + course.credits, 0);
+    let totalCredits = arrays.reduce((acc, course) => acc + course.credits, 0);
     let id = abbrev.replace(" ", "");
     let ariaLabel = arrays[i].title;
     let status = arrays[i].completed;

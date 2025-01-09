@@ -13,6 +13,10 @@
   header {
     display: block;
   }
+  section img {
+    width: 300px;
+    height: auto;
+  }
 }
 
 @media (min-width: 700px) {
@@ -21,6 +25,7 @@
   }
   header img {
     width: 200px;
+    height: auto;
   }
   main {
     padding: 1rem;

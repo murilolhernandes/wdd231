@@ -33,13 +33,10 @@ header.open {
 }
 
 header img {
-  box-shadow: 0 0 10px #000;
-}
-
-header img {
   width: 100px;
-  /* width: 100%; */
+  height: auto;
   margin: 1rem;
+  box-shadow: 0 0 10px #000;
 }
 
 h1 {
@@ -107,7 +104,8 @@ main {
 }
 
 section img {
-  width: 100%;
+  width: 200px;
+  height: auto;
 }
 
 h2 {

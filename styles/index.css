@@ -168,7 +168,14 @@ h2 {
   grid-gap: 1rem;
 }
 
-.courses {
+.credits {
+  align-self: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.course {
   border-radius: 5px;
   border: rgba(0, 0, 0, 0.5) solid 1px;
   padding: 1rem;
@@ -176,12 +183,20 @@ h2 {
   font-size: 1rem;
 }
 
-.finished {
+.course-info.hidden {
+  display: none;
+}
+
+.course-info.show {
+  display: block;
+}
+
+.true {
   background-color: #003366;
   color: #ffbf00;
 }
 
-.in-progress {
+.false {
   background-color: #eee;
   color: #000;
 }

@@ -4,18 +4,15 @@ document.getElementById("lastModified").innerHTML = `Last Modification: ${docume
 
 const hamButton = document.getElementById("menu");
 const navigation = document.querySelector(".navigation");
-// const title = document.querySelector(".title");
 const header = document.querySelector("header");
 const headerContainer = document.querySelector(".header-container");
 
 hamButton.addEventListener("click", () => {
   navigation.classList.toggle("open");
   hamButton.classList.toggle("open");
-  // title.classList.toggle("open");
   header.classList.toggle("open");
   headerContainer.classList.toggle("open");
 });
-
 
 let filters = [
   {
@@ -23,13 +20,13 @@ let filters = [
     id: "all",
     class: "filters",
     ariaLabel: "All"
-  }, 
+  },
   {
     buttonName: "CSE",
     id: "cse",
     class: "filters",
     ariaLabel: "CSE"
-  }, 
+  },
   {
     buttonName: "WDD",
     id: "wdd",
@@ -50,98 +47,196 @@ let filters = [
   }
 ];
 
-let courses = [
+// let courses1 = [
+//   {
+//     buttonName: "CSE 110",
+//     id: "cse110",
+//     class: "courses finished",
+//     ariaLabel: "CSE 110"
+//   },
+//   {
+//     buttonName: "WDD 130",
+//     id: "wdd130",
+//     class: "courses finished",
+//     ariaLabel: "WDD 130"
+//   },
+//   {
+//     buttonName: "CSE 111",
+//     id: "cse111",
+//     class: "courses finished",
+//     ariaLabel: "CSE 111"
+//   },
+//   {
+//     buttonName: "CSE 210",
+//     id: "cse210",
+//     class: "courses in-progress",
+//     ariaLabel: "CSE 210"
+//   },
+//   {
+//     buttonName: "WDD 131",
+//     id: "wdd131",
+//     class: "courses finished",
+//     ariaLabel: "WDD 131"
+//   },
+//   {
+//     buttonName: "WDD 231",
+//     id: "wdd231",
+//     class: "courses in-progress",
+//     ariaLabel: "WDD 231"
+//   }
+// ];
+
+const courses = [
   {
-    buttonName: "CSE 110",
-    id: "cse110",
-    class: "courses finished",
-    ariaLabel: "CSE 110"
+    subject: 'CSE',
+    number: 110,
+    title: 'Introduction to Programming',
+    credits: 2,
+    certificate: 'Web and Computer Programming',
+    description: 'This course will introduce students to programming. It will introduce the building blocks of programming languages (variables, decisions, calculations, loops, array, and input/output) and use them to solve problems.',
+    technology: [
+      'Python'
+    ],
+    completed: true
   },
   {
-    buttonName: "WDD 130",
-    id: "wdd130",
-    class: "courses finished",
-    ariaLabel: "WDD 130"
+    subject: 'WDD',
+    number: 130,
+    title: 'Web Fundamentals',
+    credits: 2,
+    certificate: 'Web and Computer Programming',
+    description: 'This course introduces students to the World Wide Web and to careers in web site design and development. The course is hands on with students actually participating in simple web designs and programming. It is anticipated that students who complete this course will understand the fields of web design and development and will have a good idea if they want to pursue this degree as a major.',
+    technology: [
+      'HTML',
+      'CSS'
+    ],
+    completed: true
   },
   {
-    buttonName: "CSE 111",
-    id: "cse111",
-    class: "courses finished",
-    ariaLabel: "CSE 111"
+    subject: 'CSE',
+    number: 111,
+    title: 'Programming with Functions',
+    credits: 2,
+    certificate: 'Web and Computer Programming',
+    description: 'CSE 111 students become more organized, efficient, and powerful computer programmers by learning to research and call functions written by others; to write, call , debug, and test their own functions; and to handle errors within functions. CSE 111 students write programs with functions to solve problems in many disciplines, including business, physical science, human performance, and humanities.',
+    technology: [
+      'Python'
+    ],
+    completed: true
   },
   {
-    buttonName: "CSE 210",
-    id: "cse210",
-    class: "courses in-progress",
-    ariaLabel: "CSE 210"
+    subject: 'CSE',
+    number: 210,
+    title: 'Programming with Classes',
+    credits: 2,
+    certificate: 'Web and Computer Programming',
+    description: 'This course will introduce the notion of classes and objects. It will present encapsulation at a conceptual level. It will also work with inheritance and polymorphism.',
+    technology: [
+      'C#'
+    ],
+    completed: false
   },
   {
-    buttonName: "WDD 131",
-    id: "wdd131",
-    class: "courses finished",
-    ariaLabel: "WDD 131"
+    subject: 'WDD',
+    number: 131,
+    title: 'Dynamic Web Fundamentals',
+    credits: 2,
+    certificate: 'Web and Computer Programming',
+    description: 'This course builds on prior experience in Web Fundamentals and programming. Students will learn to create dynamic websites that use JavaScript to respond to events, update content, and create responsive user experiences.',
+    technology: [
+      'HTML',
+      'CSS',
+      'JavaScript'
+    ],
+    completed: true
   },
   {
-    buttonName: "WDD 231",
-    id: "wdd231",
-    class: "courses in-progress",
-    ariaLabel: "WDD 231"
+    subject: 'WDD',
+    number: 231,
+    title: 'Frontend Web Development I',
+    credits: 2,
+    certificate: 'Web and Computer Programming',
+    description: 'This course builds on prior experience with Dynamic Web Fundamentals and programming. Students will focus on user experience, accessibility, compliance, performance optimization, and basic API usage.',
+    technology: [
+      'HTML',
+      'CSS',
+      'JavaScript'
+    ],
+    completed: false
   }
-];
+]
 
 let webFilters = document.getElementById("filter");
 let webCourses = document.getElementById("courses");
+let h3 = webCourses.appendChild(document.createElement("h3")).classList.add("credits");
 
-createButtons(filters, webFilters);
-createButtons(courses, webCourses);
+createButtons();
+createCourseList(courses);
 
-function createButtons(array, container) {
-  for (let i = 0; i < array.length; i++) {
-    let id = array[i].id;
-    let className = array[i].class;
-    let ariaLabel = array[i].ariaLabel;
-    let objectName = array[i].buttonName;
-    container.innerHTML += `<button id="${id}" class="${className}" aria-label="${ariaLabel}">${objectName}</button>`;
-  } 
+function createCourseList(arrays) {
+  for (let i = 0; i < arrays.length; i++) {
+    let abbrev = `${arrays[i].subject} ${arrays[i].number}`;
+    let credits = arrays[i].credits;
+    const totalCredits = arrays.reduce((acc, course) => acc + course.credits, 0);
+    let id = abbrev.replace(" ", "");
+    let ariaLabel = arrays[i].title;
+    let status = arrays[i].completed;
+    let classNames = `${arrays[i].subject} ${status}`;
+    document.querySelector(".credits").innerHTML = `The total number of course listed below is ${totalCredits}`;
+    webCourses.innerHTML += `<button id="${id}" class="course ${classNames}" aria-label="${ariaLabel}"><p>${abbrev}</p></button>`;
+  };
+}
+
+function createButtons() {
+  for (let i = 0; i < filters.length; i++) {
+    let id = filters[i].id;
+    let className = filters[i].class;
+    let ariaLabel = filters[i].ariaLabel;
+    let objectName = filters[i].buttonName;
+    webFilters.innerHTML += `<button id="${id}" class="${className}" aria-label="${ariaLabel}">${objectName}</button>`;
+  }
 }
 
 function clearButtons() {
-  webCourses.innerHTML = ``;
+  buttons = webCourses.querySelectorAll("button");
+  buttons.forEach(button => {
+    button.remove();
+  })
 }
 
 document.getElementById("all").addEventListener("click", () => {
   clearButtons();
-  createButtons(courses, webCourses);
+  createCourseList(courses);
 });
 
 document.getElementById("cse").addEventListener("click", () => {
   const cse = courses.filter(course => {
-    return course.id.startsWith("cse");
+    return course.subject.includes("CSE");
   });
   clearButtons();
-  createButtons(cse, webCourses);
+  createCourseList(cse);
 });
 
 document.getElementById("wdd").addEventListener("click", () => {
   const wdd = courses.filter(course => {
-    return course.id.startsWith("wdd");
+    return course.subject.includes("WDD");
   });
   clearButtons();
-  createButtons(wdd, webCourses);
+  createCourseList(wdd);
 });
 
 document.getElementById("finished").addEventListener("click", () => {
   const finished = courses.filter(course => {
-    return course.class.endsWith("finished");
+    return course.completed;
   });
   clearButtons();
-  createButtons(finished, webCourses);
+  createCourseList(finished);
 });
 
 document.getElementById("in-progress").addEventListener("click", () => {
   const inProgress = courses.filter(course => {
-    return course.class.endsWith("in-progress");
+    return !course.completed;
   });
   clearButtons();
-  createButtons(inProgress, webCourses);
+  createCourseList(inProgress);
 });

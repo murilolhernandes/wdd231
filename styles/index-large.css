@@ -44,6 +44,11 @@
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
     grid-gap: 1rem;
   }
+  .credits {
+    grid-column: span 3;
+    /* text-align: center;
+    align-self: center; */
+  }
 }
 
 @media (min-width: 1000px) {

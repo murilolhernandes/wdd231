@@ -2,6 +2,20 @@ const today = new Date();
 document.getElementById("currentYear").innerHTML = `©️ ${today.getFullYear()} | Murilo Luiz Hernandes | Idaho`;
 document.getElementById("lastModified").innerHTML = `Last Modification: ${document.lastModified}`;
 
+const hamButton = document.getElementById("menu");
+const navigation = document.querySelector(".navigation");
+// const title = document.querySelector(".title");
+const header = document.querySelector("header");
+const headerContainer = document.querySelector(".header-container");
+
+hamButton.addEventListener("click", () => {
+  navigation.classList.toggle("open");
+  hamButton.classList.toggle("open");
+  // title.classList.toggle("open");
+  header.classList.toggle("open");
+  headerContainer.classList.toggle("open");
+});
+
 
 let filters = [
   {

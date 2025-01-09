@@ -7,3 +7,7 @@ let webCourses = document.getElementById("courses");
 
 webFilters.innerHTML = `Hello there`;
 webCourses.innerHTML = `Hello there2`;
+
+filters = [
+  
+]

@@ -1,0 +1,28 @@
+{
+  "familyName": "Hernandes",
+  "moveInDate": "2025-01-01",
+  "numberOfFamilyMembers": 4,
+  "visitedByBishopric": false,
+  "familyMembers": [
+    {
+      "name": "Murilo Hernandes",
+      "gender": "male",
+      "birthdate": "2002-20-02"
+    },
+    {
+      "name": "Hannah Hernandes",
+      "gender": "female",
+      "birthdate": "2001-14-06"
+    },
+    {
+      "name": "Jacob Hernandes",
+      "gender": "male",
+      "birthdate": "2024-10-12"
+    },
+    {
+      "name": "Sofia Hernandes",
+      "gender": "female",
+      "birthdate": "2022-08-09"
+    }
+  ]
+}

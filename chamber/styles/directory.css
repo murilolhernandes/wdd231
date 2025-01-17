@@ -1,0 +1,8 @@
+.active {
+  color: pink;
+  background-color: #154e13;
+}
+
+.button-option {
+  display: none;
+}

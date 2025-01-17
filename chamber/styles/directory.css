@@ -101,12 +101,23 @@ p {
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
-  text-align: center;
-
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
   padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+section a {
+  color: #333333;
+  font-family: "Helvetica", sans-serif;
 }
 
 /* ---------- Footer ---------- */

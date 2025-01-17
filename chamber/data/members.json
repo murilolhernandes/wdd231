@@ -1,0 +1,51 @@
+{
+  "Deseret Industries Thrift Store & Donation Center": {
+    "name": "Deseret Industries",
+    "address": "611 North 2nd East, Rexburg, Idaho 83440",
+    "phoneNumber": "(208) 356-0066",
+    "websiteURL": "deseretindustries.org",
+    "image": "https://www.deseretindustries.org/static/favicon.png"
+  },
+  "BYU-Idaho Ticket Office": {
+    "name": "BYU-Idaho Ticket Office",
+    "address": "101 E Viking Drive MC 132D Brigham Young University, Rexburg, ID 83460",
+    "phoneNumber": "(208) 496-3170",
+    "websiteURL": "https://www.byui.edu/ticket-office/",
+    "image": "https://www.byui.edu/favicon-32x32.png"
+  },
+  "Big D Companies": {
+    "name": "Big D Construction",
+    "address": "1070 Riverwalk Drive Suite 350, Idaho Falls, ID 83402",
+    "phoneNumber": "(208) 538-1886",
+    "websiteURL": "https://www.mtnwest.big-d.com/locations/idaho-falls",
+    "image": "https://www.big-d.com/images/icon-32.png"
+  },
+  "Righteous Slice": {
+    "name": "Righteous Slice",
+    "address": "175 W 2nd South Ste100, Rexburg, ID 83440",
+    "phoneNumber": "(208) 820-4597",
+    "websiteURL": "https://righteousslice.com/",
+    "image": "https://d28f3w0x9i80nq.cloudfront.net/restaurantImages/73fab7fb-2a96-43c6-af4e-cb3f6cfc7207/LOGO-01.jpg"
+  },
+  "Original Thai Restaurant": {
+    "name": "Original Thai Restaurant",
+    "address": "10 E Main St, Rexburg, ID 83440",
+    "phoneNumber": "(208) 359-9660",
+    "websiteURL": "https://www.facebook.com/profile.php?id=100063509352541",
+    "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/358703334_753822733411365_7043551920709129060_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=yjv0uqmidP4Q7kNvgFz3O-X&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=AsIa52giRFSd1xkytQv-rf2&oh=00_AYDHSE5xBe_PdAcds9cV5bQwD7I4shCrrXq-CLyV06MbWg&oe=6790556E"
+  },
+  "Madison Memorial Hospital": {
+    "name": "Madison Memorial Hospital",
+    "address": "450 E Main St, Rexburg, ID 83440",
+    "phoneNumber": "(208) 359-6900",
+    "websiteURL": "https://madisonhealth.org/",
+    "image": "https://i0.wp.com/madisonhealth.org/wp-content/uploads/2024/04/cropped-madison-health-favicon-300x300-1.webp?fit=192%2C192&ssl=1"
+  },
+  "Mills Concrete": {
+    "name": "Mills Concrete",
+    "address": "4821 Thunderbird Loop #2, Rexburg, ID 83440",
+    "phoneNumber": "(208) 497-0131",
+    "websiteURL": "millsconcrete.com",
+    "image": "https://millsconcrete.com/media/5uzpujot/millsconcrete_logo-new-color.png"
+  }
+}

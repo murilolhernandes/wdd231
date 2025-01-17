@@ -23,18 +23,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <nav>
-          <a href="#">Discover</a>
-          <a href="#">About Us</a>
-        </nav>
-        <img src="images/favicon.png" alt="Rexburg Chamber of Commerce" width="50" height="50">
-        <nav>
-          <a href="https://murilolhernandes.github.io/wdd231/chamber/directory.html">Business Directory</a>
-          <a href="#">Join</a>
-        </nav>
-      </div>
+    <header class="header">
+      <!-- <div class="idk"> -->
+        <div class="header-container">
+          <nav class="nav">
+            <a href="#">Discover</a>
+            <a href="#">About Us</a>
+          </nav>
+          <img src="images/favicon.png" class="image" alt="Rexburg Chamber of Commerce" width="50" height="50">
+          <nav class="nav">
+            <a href="https://murilolhernandes.github.io/wdd231/chamber/directory.html">Business Directory</a>
+            <a href="#">Join</a>
+          </nav>
+        </div>
+        <button type="button" id="menu" aria-label="Drop down menu for the temple filters"></button>
+      <!-- </div> -->
     </header>
     <main>
       <div class="hero-image">
@@ -70,6 +73,7 @@
         <div class="class-info">
           <p>WDD231 - Chamber of Commerce Project</p>
           <p>Murilo Luiz Hernandes</p>
+          <nav><a href="https://app.moqups.com/XAAyB28AsXHblKKKsv8nr9puEIc3bG7K/view/page/aff490f2b">Wireframe - Site Plan</a></nav>
           <div id="currentYear"></div>
           <div id="lastModified"></div>
         </div>

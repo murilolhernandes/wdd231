@@ -1,5 +1,8 @@
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 600px) { 
   .button-option {
     display: inline-block;
+  }
+  #menu {
+    display: none;
   }
 }

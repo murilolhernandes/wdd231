@@ -24,8 +24,6 @@ header.open {
   display: none;
   justify-content: space-between;
   align-items: center;
-  transition: max-height 0.5s ease-out;
-  max-height: 0;
 }
 
 .nav.open {
@@ -35,6 +33,20 @@ header.open {
   gap: 1rem;
   max-height: 200px;
 }
+
+.nav.open {
+  animation: descend 0.5s ease-out;
+}
+
+@keyframes descend {
+  0% {
+    transform: translateY(-40%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 nav a {
   font-family: "Merriweather Sans", sans-serif;
@@ -80,12 +92,16 @@ nav a:hover {
 }
 
 /* ---------- Main ---------- */
+.hero-image {
+  background: url("../images/picture.webp") no-repeat center center/cover;
+  padding: 5rem 0;
+}
+
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
-  /* background-image: "images/hero-image.jpg"; */
   font-size: 1.5rem;
-  color: #001F3F;
+  color: #ffffff;
   padding: 1rem;
 }
 
@@ -98,16 +114,24 @@ p {
   font-family: "Helvetica", sans-serif;
 }
 
+.directory-container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .directory-container.list {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
+  justify-content: center;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: .5rem;
   padding: 1rem;
   justify-content: center;
@@ -137,13 +161,11 @@ h3 {
 .class-info a, .class-info p, .class-info div {
   color: #001F3F;
   font-family: "helvetica", sans-serif;
-
 }
 
 .site-info {
   display: flex;
-  /* flex-direction: column;
-  gap: 1rem; */
+  justify-content: center;
 }
 
 .emojis {
@@ -156,15 +178,8 @@ h3 {
 .info {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
-  padding: 5px 0;
-  /* padding: 1rem; */
-  /* justify-content: center;
-  align-items: center; */
-}
-
-.phone {
-  padding-top: 1rem;
+  gap: 1.3rem;
+  padding: 8px 0;
 }
 
 .social-media {
@@ -175,6 +190,4 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: .8rem;
-  /* padding: 1rem 0; */
-
 }

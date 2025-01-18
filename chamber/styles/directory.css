@@ -121,9 +121,19 @@ section a {
 }
 
 /* ---------- Footer ---------- */
-
-
-
 footer {
   color: #001F3F;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #000;
+}
+
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.class-info a, .class-info p, .class-info div {
+  color: #001F3F;
+  font-family: "helvetica", sans-serif;
+
 }

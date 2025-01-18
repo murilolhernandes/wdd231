@@ -24,21 +24,19 @@
   </head>
   <body>
     <header class="header">
-      <!-- <div class="idk"> -->
-        <div class="header-container">
-          <nav class="nav">
-            <a href="#">Discover</a>
-            <a href="#">About Us</a>
-          </nav>
-          <img src="images/favicon.png" class="image" alt="Rexburg Chamber of Commerce" width="50" height="50">
-          <nav class="nav">
-            <a href="https://murilolhernandes.github.io/wdd231/chamber/directory.html">Business Directory</a>
-            <a href="#">Join</a>
-          </nav>
-        </div>
-        <button type="button" id="menu" aria-label="Drop down menu for the temple filters"></button>
-      <!-- </div> -->
-    </header>
+      <div class="header-container">
+        <nav class="nav">
+          <a href="#">Discover</a>
+          <a href="#">About Us</a>
+        </nav>
+        <img src="images/favicon.png" class="image" alt="Rexburg Chamber of Commerce" width="50" height="50">
+        <nav class="nav">
+          <a href="https://murilolhernandes.github.io/wdd231/chamber/directory.html">Business Directory</a>
+          <a href="#">Join</a>
+        </nav>
+      </div>
+      <button type="button" id="menu" aria-label="Drop down menu for the temple filters"></button>
+  </header>
     <main>
       <div class="hero-image">
         <h1>Welcome to Rexburg</h1>
@@ -47,23 +45,24 @@
         <button type="button" id="grid" class="grid1" aria-label="Grid view">Grid</button>
         <button type="button" id="list" class="list1" aria-label="List view">List</button>
       </div>
-      <div class="directory-container"></div>
+      <div id="directory" class="directory-container"></div>
     </main>
     <footer>
       <div class="footer-container">
-        <h3>Rexburg Chamber of Commerce</h3>
-        <div class="site-info">
-          <div class="emojis">
-            <img src="images/location.png" alt="location emoji" width="24" height="24">
-            <img src="images/email.png" alt="email emoji" width="24" height="24">
-            <img src="images/phone.png" alt="phone emoji" width="24" height="24">
-          </div>
-          <!-- I could also use a div for each section and put the images inside of them along with the text -->
-          <div class="info">
-            <p class="address">167 W Main St Ste. 2, Rexburg, ID 83440</p>
-            <p class="email">info@rexburgchamber.com</p>
-            <p class="phone">(208) 356-5700</p>
-          </div>
+        <div class="footer-info">
+          <h3>Rexburg Chamber of Commerce</h3>
+          <div class="site-info">
+            <div class="emojis">
+              <img src="images/location.png" alt="location emoji" width="24" height="24">
+              <img src="images/email.png" alt="email emoji" width="24" height="24">
+              <img src="images/phone.png" alt="phone emoji" width="24" height="24">
+            </div>
+            <div class="info">
+              <p class="address">167 W Main St Ste. 2, Rexburg, ID 83440</p>
+              <p class="email">info@rexburgchamber.com</p>
+              <p class="phone">(208) 356-5700</p>
+            </div>
+        </div>
         </div>
         <div class="social-media">
           <img src="images/facebook.png" alt="facebook logo" width="48" height="48">

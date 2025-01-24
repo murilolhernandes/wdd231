@@ -33,7 +33,7 @@
   .button-option {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem .5rem;
+    padding: 0rem .5rem;
   }
   .active {
     color: #fff;

@@ -26,6 +26,20 @@
   align-items: center;
 }
 
+#active {
+  background-color: rgba(0, 31, 63, 0.3);
+  padding: .3rem;
+  border-radius: 12px;
+  color: #000;
+  font-weight: bold;
+}
+
+#active:hover {
+  color:rgb(68, 0, 255);
+  background-color: #fff;
+  padding: 0;
+}
+
 .nav.open {
   display: flex;
   flex-wrap: wrap;
@@ -93,6 +107,14 @@ h1 {
   text-align: center;
   font-size: 1.5rem;
   color: #ffffff;
+  padding: 1rem 0;
+}
+
+.wayfinding {
+  color: #001F3F;
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+  font-size: 3rem;
   padding: 1rem 0;
 }
 

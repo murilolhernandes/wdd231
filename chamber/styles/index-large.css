@@ -1,0 +1,90 @@
+@media screen and (min-width: 600px) { 
+  .header {
+    display: block;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .nav {
+    display: inline-flex;
+    gap: 5rem;
+    font-size: 1.2rem;
+  }
+  .nav.open {
+    display: flex;
+    flex-direction: row;
+  }
+  .image.close {
+    display: block;
+    align-self: center;
+  }
+  .header-container.open {
+    display: flex;
+  }
+  .hero-image {
+    padding: 20rem 0;
+  }
+  h1 {
+
+    font-size: 3rem;
+  }
+  .button-option {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 .5rem;
+  }
+  .active {
+    color: #fff;
+    background-color: #001F3F;
+  }
+  button {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: .5rem 4rem;
+    color: #001F3F;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  #menu {
+    display: none;
+  }
+  .directory-container {
+    max-width: 1200px;
+    padding: 0 .2rem;
+  }
+  .directory-container.list {
+    max-width: 600px;
+    gap: 5rem;
+  }
+  #directory.directory-container.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  section {
+    gap: 1rem;
+    /* width: 100px; */
+    padding: 2rem;
+  }
+  .footer-container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    align-items: center;
+  }
+  .footer-container h3 {
+    grid-column: 1;
+  }
+  .site-info {
+    grid-column: 1/2;
+  }
+  .social-media {
+    grid-column: 2;
+  }
+}

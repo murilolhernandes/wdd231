@@ -35,9 +35,43 @@
     justify-content: flex-end;
     padding: 0 .5rem;
   }
+  .button-option button:hover {
+    color: #fff;
+    background-color: #001F3F;
+    cursor: pointer;
+  }
   .active {
     color: #fff;
     background-color: #001F3F;
+  }
+  .cards {
+    padding-bottom: 1rem;
+    flex-direction: row;
+    gap: 0;
+  }
+  .discover {
+    border-top: none;
+    border-bottom: none;
+  }
+  .directory {
+    border-left: 1px solid #001F3F;
+    border-right: 1px solid #001F3F;
+    border-bottom: none;
+  }
+  .join {
+    border-bottom: none;
+  }
+  .events {
+    display: flex;
+    flex-direction: row;
+  }
+  .event-section, .current-weather, .forecast-weather {
+    border: 1px solid #001F3F;
+    margin-bottom: 1rem;
+    border-radius: 0 0 12px 12px; 
+  }
+  .new-items {
+    padding: 1rem 0;
   }
   button {
     border-top-left-radius: 5px;
@@ -70,7 +104,6 @@
   }
   section {
     gap: 1rem;
-    /* width: 100px; */
     padding: 2rem;
   }
   .footer-container {
@@ -86,5 +119,35 @@
   }
   .social-media {
     grid-column: 2;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .new-items {
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .current-title, .forecast-title {
+    padding: 0 5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .new-items {
+    gap: 2rem;
+    flex-wrap: nowrap;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 3rem 0;
+   }
+   .cards {
+    padding: 4rem 0;
+    max-width: 1800px;
+    margin: 0 auto;
+   }
+  .wayfinding {
+    padding-top: 5rem;
   }
 }

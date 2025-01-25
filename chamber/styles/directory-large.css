@@ -35,6 +35,11 @@
     justify-content: flex-end;
     padding: 0rem .5rem;
   }
+  .button-option button:hover {
+    color: #fff;
+    background-color: #001F3F;
+    cursor: pointer;
+  }
   .active {
     color: #fff;
     background-color: #001F3F;

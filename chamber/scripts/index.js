@@ -24,7 +24,8 @@ const directory = document.querySelector(".directory-container");
 async function getDirectory() {
   const response = await fetch(businesses);
   const data = await response.json();
-  displayDirectory(data.members);
+  // displayDirectory(data.members);
+  displayRandomDirectory(data.members);
   // console.table(data.members);
 }
 
@@ -60,6 +61,13 @@ const displayDirectory = (members) => {
     card.appendChild(p3);
     directory.appendChild(card);
   });
+}
+
+const displayRandomDirectory = (members) => {
+  const eligibleBusinesses = members.filter(business => business.membershipLevel === "2 (Silver)" || business.membershipLevel === "3 (Gold)");
+  const shuffleBusiness = eligibleBusinesses.sort(() => 0.5 - Math.random());
+  const selectedBusiness = shuffleBusiness.slice(0, 3);
+  displayDirectory(selectedBusiness);
 }
 
 const grid = document.querySelector("#grid");
@@ -196,6 +204,7 @@ apiFetchCurrent();
 function displayCurrentResults(data) {
   temp.innerHTML = `<strong>${data.main.temp}&deg;F</strong>`;
   const img = document.createElement("img");
+  const p = document.createElement("p");
   img.setAttribute("src", `https://openweathermap.org/img/w/${data.weather[0].icon}.png`);
   img.setAttribute("loading", "lazy");
   img.setAttribute("width", "50");
@@ -203,9 +212,12 @@ function displayCurrentResults(data) {
   let description = data.weather[0].description;
   img.alt = `${description}`;
   const caption = document.createElement("figcaption");
-  caption.textContent = `${description}`;
-  img.appendChild(caption);
+  p.classList.add("p");
+  p.id = "description";
+  p.innerHTML = `<strong>${description}</strong>`;
+  caption.appendChild(p);
   weatherImage.appendChild(img);
+  weatherImage.appendChild(caption);
   high.innerHTML = `<strong>High:</strong> ${data.main.temp_max}&deg;F`;
   low.innerHTML = `<strong>Low:</strong> ${data.main.temp_min}&deg;F`;
   humidity.innerHTML = `<strong>Humidity:</strong> ${data.main.humidity}%`;

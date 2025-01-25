@@ -105,9 +105,9 @@ nav a:hover {
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ffffff;
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 
 .wayfinding {
@@ -141,30 +141,39 @@ h2 {
 }
 
 .discover {
-  border-top: 1px solid #001F3F;
-  border-bottom: 1px solid #001F3F;
+  /* border-top: 1px solid #001F3F;
+  border-bottom: 1px solid #001F3F; */
+  border-bottom: 1px solid #fff;
 }
 
 .directory {
-  border-bottom: 1px solid #001F3F;
+  /* border-bottom: 1px solid #001F3F; */
+  border-bottom: 1px solid #fff;
 }
 
-.join {
+/* .join {
   border-bottom: 1px solid #001F3F;
-}
+} */
 
 .cards a {
   font-family: "Merriweather Sans", sans-serif;
-  color: #001F3F;
+  color: #fff;
   border-radius: 12px;
   padding: 0.7rem;
-  background-color: rgba(0, 31, 63, 0.3);
+  background-color: rgba(0, 31, 63, 0.9);
   font-weight: bold;
 }
 
 .cards a:hover {
+  /* color: #fff;
+  background-color: rgba(0, 31, 63, 1); */
+  color: #001F3F;
+  background-color: #fff;
+}
+
+.card h2, .card p {
   color: #fff;
-  background-color: rgba(0, 31, 63, 1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .event-title, .current-title, .forecast-title {
@@ -207,6 +216,11 @@ h2 {
 
 .weather-container, .forecast-container {
   padding: 1rem;
+}
+
+#description::first-letter {
+  text-transform: uppercase;
+  color: #001F3F;
 }
 
 .current, .forecast {

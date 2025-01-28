@@ -74,6 +74,10 @@ nav a:hover {
   color: yellow;
 }
 
+.active {
+  color: yellow;
+}
+
 #menu {
   font-size: 1.5rem;
 	border: 0;

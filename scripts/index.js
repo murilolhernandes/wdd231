@@ -130,6 +130,15 @@ const courses = [
 let webFilters = document.getElementById("filter");
 let webCourses = document.getElementById("courses");
 let h3 = webCourses.appendChild(document.createElement("h3")).classList.add("credits");
+const dialog = document.querySelector("#course-details");
+const divBox = document.createElement("div");
+const divContainer = document.createElement("div");
+const h2 = document.createElement("h2");
+const createH3 = document.createElement("h3");
+const certificate = document.createElement("p");
+const description = document.createElement("p");
+const credits = document.createElement("p");
+const tech = document.createElement("p");
 
 createButtons();
 createCourseList(courses);
@@ -145,6 +154,9 @@ function createCourseList(arrays) {
     document.querySelector(".credits").innerHTML = `The total number of course listed below is ${totalCredits}`;
     webCourses.innerHTML += `<button id="${id}" class="course ${classNames}" aria-label="${ariaLabel}"><p>${abbrev}</p></button>`;
   };
+  document.querySelectorAll("#courses .course").forEach((button, index) => {
+    button.addEventListener("click", () => showStuff(arrays[index]));
+  });
 }
 
 function createButtons() {
@@ -200,3 +212,36 @@ document.getElementById("in-progress").addEventListener("click", () => {
   clearButtons();
   createCourseList(inProgress);
 });
+
+
+function showStuff(x) {
+  const existingButton = document.querySelector("#close-button");
+  if (existingButton) {
+    existingButton.remove();
+  }
+
+  const button = document.createElement("button");
+  button.id = "close-button";
+  button.textContent = "X";
+
+  h2.textContent = `${x.subject} ${x.number}`;
+  createH3.textContent = x.title;
+  credits.textContent = `${x.credits} credits`;
+  certificate.textContent = `Certificate: ${x.certificate}`;
+  description.textContent = x.description;
+  tech.textContent = `Technology: ${x.technology}`;
+
+  divBox.appendChild(h2);
+  divBox.appendChild(button);
+  dialog.appendChild(divBox);
+  dialog.appendChild(createH3);
+  dialog.appendChild(credits);
+  dialog.appendChild(certificate);
+  dialog.appendChild(description);
+  dialog.appendChild(tech);
+  const closeButton = document.querySelector("#close-button");
+  closeButton.addEventListener('click', () => {
+    dialog.close();
+  })
+  dialog.showModal();
+}

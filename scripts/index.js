@@ -222,14 +222,14 @@ function showStuff(x) {
 
   const button = document.createElement("button");
   button.id = "close-button";
-  button.textContent = "X";
+  button.textContent = "❌";
 
   h2.textContent = `${x.subject} ${x.number}`;
   createH3.textContent = x.title;
   credits.textContent = `${x.credits} credits`;
   certificate.textContent = `Certificate: ${x.certificate}`;
   description.textContent = x.description;
-  tech.textContent = `Technology: ${x.technology}`;
+  tech.textContent = `Technology: ${x.technology.join(", ")}`;
 
   divBox.appendChild(h2);
   divBox.appendChild(button);

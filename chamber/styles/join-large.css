@@ -1,0 +1,156 @@
+@media screen and (min-width: 600px) { 
+  .header {
+    display: block;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .nav {
+    display: inline-flex;
+    gap: 5rem;
+    font-size: 1.2rem;
+  }
+  .nav.open {
+    display: flex;
+    flex-direction: row;
+  }
+  .image.close {
+    display: block;
+    align-self: center;
+  }
+  .header-container.open {
+    display: flex;
+  }
+  .hero-image {
+    padding: 15rem 0;
+  }
+  h1 {
+
+    font-size: 3rem;
+  }
+  .button-option {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 .5rem;
+  }
+  .button-option button:hover {
+    color: #fff;
+    background-color: #001F3F;
+    cursor: pointer;
+  }
+  .active {
+    color: #fff;
+    background-color: #001F3F;
+  }
+  .cards {
+    padding-bottom: 1rem;
+    flex-direction: row;
+    gap: 0;
+    align-self: flex-end;
+  }
+  .discover {
+    border-top: none;
+    border-bottom: none;
+  }
+  .directory {
+    /* border-left: 1px solid #001F3F;
+    border-right: 1px solid #001F3F; */
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: none;
+  }
+  .join {
+    border-bottom: none;
+  }
+  .events {
+    display: flex;
+    flex-direction: row;
+  }
+  .event-section, .current-weather, .forecast-weather {
+    border: 1px solid #001F3F;
+    margin-bottom: 1rem;
+    border-radius: 0 0 12px 12px; 
+  }
+  .new-items {
+    padding: 1rem 0;
+  }
+  button {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: .5rem 4rem;
+    color: #001F3F;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  #menu {
+    display: none;
+  }
+  .directory-container {
+    max-width: 1200px;
+    padding: 0 .2rem;
+  }
+  .directory-container.list {
+    max-width: 600px;
+    gap: 5rem;
+  }
+  #directory.directory-container.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  section {
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .footer-container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    align-items: center;
+  }
+  .footer-container h3 {
+    grid-column: 1;
+  }
+  .site-info {
+    grid-column: 1/2;
+  }
+  .social-media {
+    grid-column: 2;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .new-items {
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .current-title, .forecast-title {
+    padding: 0 5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .new-items {
+    gap: 2rem;
+    flex-wrap: nowrap;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 3rem 0;
+   }
+   .cards {
+    padding: 2rem 0;
+    max-width: 1800px;
+    margin: 0 auto;
+   }
+  .wayfinding {
+    padding-top: 5rem;
+  }
+}

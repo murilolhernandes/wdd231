@@ -19,6 +19,10 @@ hamButton.addEventListener("click", () => {
 const dialogBox = document.querySelector("#dialogBox");
 const closeButton = document.querySelector("#closeButton");
 const dialogBoxText = document.querySelector("#dialogBox div");
+const submitButton = document.querySelector("input[type=submit]");
+const timestamp = document.querySelector("#timestamp");
+timestamp.value = new Date().toLocaleString();
+
 
 document.querySelector("#np").addEventListener("click", () => {
   dialogBox.showModal();

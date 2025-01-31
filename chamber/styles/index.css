@@ -141,19 +141,12 @@ h2 {
 }
 
 .discover {
-  /* border-top: 1px solid #001F3F;
-  border-bottom: 1px solid #001F3F; */
   border-bottom: 1px solid #fff;
 }
 
 .directory {
-  /* border-bottom: 1px solid #001F3F; */
   border-bottom: 1px solid #fff;
 }
-
-/* .join {
-  border-bottom: 1px solid #001F3F;
-} */
 
 .cards a {
   font-family: "Merriweather Sans", sans-serif;
@@ -165,8 +158,6 @@ h2 {
 }
 
 .cards a:hover {
-  /* color: #fff;
-  background-color: rgba(0, 31, 63, 1); */
   color: #001F3F;
   background-color: #fff;
 }

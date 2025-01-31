@@ -35,62 +35,64 @@
           <a  id="active" href="https://murilolhernandes.github.io/wdd231/chamber/join.html">Join</a>
         </nav>
       </div>
-      <button type="button" id="menu" aria-label="Drop down menu for the temple filters"></button>
+      <button type="button" id="menu" aria-label="Drop down menu for the navigational links"></button>
   </header>
     <main>
       <h1>Join the Rexburg Chamber of Commerce</h1>
-      <div class="form-container">
-        <h2>Membership Application Form</h2>
-        <form method="GET" action="http://127.0.0.1:5500/wdd231/chamber/thankyou.html">
-          <fieldset>
-            <legend>Join the Rexburg Chamber of Commerce</legend>
-            <div>Required fields are marked with an <span class="required">*</span></div>
-            <label>First name <span class="required">*</span><input type="text" name="firstName" title="Your first name" autocomplete="given-name" required></label>
-            <label>Last name <span class="required">*</span><input type="text" name="lastName" title="Your last name" autocomplete="family-name" required></label>
-            <label>Organizational title <input type="text" name="title" title="Your organizational title" autocomplete="organization-title"></label>
-            <label>Email address <span class="required">*</span><input type="email" name="email" title="Your email address" placeholder="example@example.com" autocomplete="email" required></label>
-            <label>Mobile Phone Number <span class="required">*</span><input type="tel" name="phone" title="Your mobile phone number" autocomplete="tel" required></label>
-            <label>Orgazination's name <span class="required">*</span><input type="text" name="businessName" title="Your organization's name" autocomplete="organization" required></label>
-            <label>Membership level <span class="required">*</span>
-              <select name="membership" required>
-                <option value disabled selected>Select a membership level</option>
-                <option value="np">NP Membership (non profit)</option>
-                <option value="bronze">Bronze Membership</option>
-                <option value="silver">Silver Membership</option>
-                <option value="gold">Gold Membership</option>
-              </select>
-            </label>
-            <label>Organization's description <textarea name="description" title="Organization's description" rows="8" cols="30"></textarea></label>
-            <input type="hidden" name="timestamp" id="timestamp">
-            <input type="submit" value="Sign up">
-          </fieldset>
-        </form>
-      </div>
-      <aside>
-        <h2>Membership Levels</h2>
-        <div>
-          <div class="buttons">
-            <h3>Non Profit Membership Level</h3>
-            <button id="np">Learn More</button>
-          </div>
-          <div class="buttons">
-            <h3>Bronze Membership Level</h3>
-            <button id="bronze">Learn More</button>
-          </div>
-          <div class="buttons">
-            <h3>Silver Membership Level</h3>
-            <button id="silver">Learn More</button>
-          </div>
-          <div class="buttons">
-            <h3>Gold Membership Level</h3>
-            <button id="gold">Learn More</button>
-          </div>
-          <dialog id="dialogBox">
-            <div></div>
-            <button id="closeButton">Close</button>
-          </dialog>
+      <div class="main-container">
+        <div class="form-container">
+          <h2>Membership Application Form</h2>
+          <form method="GET" action="http://127.0.0.1:5500/wdd231/chamber/thankyou.html">
+            <fieldset>
+              <legend>Join the Rexburg Chamber of Commerce</legend>
+              <div>Required fields are marked with an <span class="required">*</span></div>
+              <label>First name <span class="required">*</span><input type="text" name="firstName" title="Your first name" autocomplete="given-name" required></label>
+              <label>Last name <span class="required">*</span><input type="text" name="lastName" title="Your last name" autocomplete="family-name" required></label>
+              <label>Organizational title <input type="text" name="title" title="Your organizational title" autocomplete="organization-title"></label>
+              <label>Email address <span class="required">*</span><input type="email" name="email" title="Your email address" placeholder="example@example.com" autocomplete="email" required></label>
+              <label>Mobile Phone Number <span class="required">*</span><input type="tel" name="phone" title="Your mobile phone number" autocomplete="tel" required></label>
+              <label>Orgazination's name <span class="required">*</span><input type="text" name="businessName" title="Your organization's name" autocomplete="organization" required></label>
+              <label>Membership level <span class="required">*</span>
+                <select name="membership" required>
+                  <option value disabled selected>Select a membership level</option>
+                  <option value="np">NP Membership (non profit)</option>
+                  <option value="bronze">Bronze Membership</option>
+                  <option value="silver">Silver Membership</option>
+                  <option value="gold">Gold Membership</option>
+                </select>
+              </label>
+              <label>Organization's description <textarea name="description" title="Organization's description" rows="8" cols="30"></textarea></label>
+              <input type="hidden" name="timestamp" id="timestamp">
+              <input type="submit" value="Sign up">
+            </fieldset>
+          </form>
         </div>
-      </aside>
+        <aside>
+          <h2>Membership Levels</h2>
+          <div class="levels">
+            <div class="buttons">
+              <h3>Non Profit Membership Level</h3>
+              <button id="np">Learn More</button>
+            </div>
+            <div class="buttons">
+              <h3>Bronze Membership Level</h3>
+              <button id="bronze">Learn More</button>
+            </div>
+            <div class="buttons">
+              <h3>Silver Membership Level</h3>
+              <button id="silver">Learn More</button>
+            </div>
+            <div class="buttons">
+              <h3>Gold Membership Level</h3>
+              <button id="gold">Learn More</button>
+            </div>
+            <dialog id="dialogBox">
+              <div></div>
+              <button id="closeButton">Close</button>
+            </dialog>
+          </div>
+        </aside>
+      </div>
     </main>
     <footer>
       <div class="footer-container">

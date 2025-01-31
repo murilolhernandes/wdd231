@@ -116,11 +116,17 @@ h1 {
 h2 {
   color: #001F3F;
   font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
 }
 
-p, .p {
+#thankyou {
+  padding: 2rem;
+}
+
+p {
   color: #333333;
   font-family: "Helvetica", sans-serif;
+  
 }
 /* ---------- Footer ---------- */
 footer {

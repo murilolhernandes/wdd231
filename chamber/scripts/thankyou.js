@@ -25,7 +25,6 @@ let formData = everything[1].split("&");
 function show(cup) {
   formData.forEach((element) => {
     if (element.startsWith(cup)) {
-      // result = element.split("=")[1].replace("%40", "@");
       result = decodeURIComponent(element.split("=")[1]).replace(/\+/g, " ");
     }
   })
@@ -34,9 +33,10 @@ function show(cup) {
 
 const showInfo = document.querySelector("#thankyou");
 showInfo.innerHTML = `
-<p>Name: ${show("firstName")} ${show("lastName")}</p>
-<p>Your Email: <a href="mailto:${show("email")}">${show("email")}</a></p>
-<p>Your Phone: ${show("phone")}</p>
-<p>Business Name: ${show("businessName")}</p>
-<p>Timestamp: ${show("timestamp")}</p>
+<p><strong>Thank you for your submission!</strong></p>
+<p><strong>Name:</strong> ${show("firstName")} ${show("lastName")}</p>
+<p><strong>Your Email:</strong> <a href="mailto:${show("email")}">${show("email")}</a></p>
+<p><strong>Your Phone:</strong> ${show("phone")}</p>
+<p><strong>Business Name:</strong> ${show("businessName")}</p>
+<p><strong>Timestamp:</strong> ${show("timestamp")}</p>
 `;

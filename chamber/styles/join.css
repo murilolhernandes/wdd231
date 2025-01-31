@@ -119,7 +119,7 @@ h2 {
   text-align: center;
 }
 
-p, .p {
+p, .p, ul li {
   color: #333333;
   font-family: "Helvetica", sans-serif;
 }
@@ -132,17 +132,24 @@ p, .p {
 
 fieldset {
   border-radius: 12px;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.1rem;
+  border: #001F3F 1px solid;
+}
+
+legend {
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 fieldset div {
   padding: 0.5rem 0;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 label {
   display: block;
   padding: 1rem 0;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 input[type="text"], input[type="email"], input[type="tel"], input[type="submit"], textarea, select {
@@ -151,7 +158,6 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="submit"]
   border: 1px solid #001F3F;
   padding: .75rem;
   font-family: "Merriweather Sans", sans-serif;
-  /* font-size: .8rem; */
 }
 
 input[type="submit"] {
@@ -164,33 +170,103 @@ input[type="submit"] {
 }
 
 .required {
-  color: red;
+  color: blue;
 }
 
 input:required, select:required {
   border-bottom: 8px solid red;
 }
 
-input:valid, select:valid {
+input:required:valid, select:required:valid {
   border-bottom: 8px solid green;
 }
 
-section {
+@keyframes ascend {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+aside {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: .5rem;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
+  gap: 1rem;
   text-align: center;
-  border: 1px solid black;
+  padding: 2rem 0;
+  animation: ascend 1s ease-out;
+}
+
+.levels {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #001F3F;
   border-radius: 12px;
 }
 
-section a {
-  color: #333333;
-  font-family: "Helvetica", sans-serif;
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #001F3F;
+}
+
+.buttons button {
+  background-color: #001F3F;
+  color: #fff;
+  border: 1px solid #333333;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  padding: 1.2rem;
+  border-radius: 12px;
+}
+
+button:hover, input[type="submit"]:hover, #closeButton:hover {
+  background-color: #fff;
+  color: #001F3F;
+  cursor: pointer;
+}
+
+#dialogBox {
+  margin: 0 auto;
+  align-self: center;
+  padding: 1rem;
+  border: 1px solid #001F3F;
+  border: 0;
+  border-radius: 12px;
+}
+
+#dialogBox p, ul li {
+  padding: .75rem;
+  text-align: left;
+}
+
+li {
+  list-style-position: inside;
+}
+
+#closeButton {
+  background-color: #001F3F;
+  color: #fff;
+  border: 1px solid #333333;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  padding: 1.2rem;
+  border-radius: 12px;
+  width: 100%;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 /* ---------- Footer ---------- */

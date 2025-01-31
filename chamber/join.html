@@ -7,7 +7,7 @@
     <meta name="author" content="Murilo Hernandes">
     <meta name="description" content="Rexburg Chamber of Commerce Join Page">
     <meta property="og:title" content="Rexburg Chamber of Commerce Join Page">
-    <meta property="og:type" content="website"/>
+    <meta property="og:type" content='website'/>
     <meta property="og:image" content="https://rexburgchamber.org/wp-content/uploads/2024/09/Chamber-Seal-Final-svg-5.png">
     <meta property="og:url" content="https://murilolhernandes.github.io/wdd231/chamber/">
     <meta name="twitter:card" content="summary_large_image">
@@ -48,7 +48,7 @@
               <div>Required fields are marked with an <span class="required">*</span></div>
               <label>First name <span class="required">*</span><input type="text" name="firstName" title="Your first name" autocomplete="given-name" required></label>
               <label>Last name <span class="required">*</span><input type="text" name="lastName" title="Your last name" autocomplete="family-name" required></label>
-              <label>Organizational title <input type="text" name="title" title="Your organizational title" autocomplete="organization-title"></label>
+              <label>Organizational title <input type="text" name="title" title="Your organizational title" pattern="[A-Za-z\s\-]{7,}" autocomplete="organization-title"></label>
               <label>Email address <span class="required">*</span><input type="email" name="email" title="Your email address" placeholder="example@example.com" autocomplete="email" required></label>
               <label>Mobile Phone Number <span class="required">*</span><input type="tel" name="phone" title="Your mobile phone number" autocomplete="tel" required></label>
               <label>Orgazination's name <span class="required">*</span><input type="text" name="businessName" title="Your organization's name" autocomplete="organization" required></label>

@@ -1,0 +1,50 @@
+@media screen and (min-width: 600px) { 
+  .header {
+    display: block;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .nav {
+    display: inline-flex;
+    gap: 5rem;
+    font-size: 1.2rem;
+  }
+  .nav.open {
+    display: flex;
+    flex-direction: row;
+  }
+  .image.close {
+    display: block;
+    align-self: center;
+  }
+  .header-container.open {
+    display: flex;
+  }
+  h1 {
+
+    font-size: 3rem;
+  }
+  #thankyou {
+    text-align: center;
+  }
+  #menu {
+    display: none;
+  }
+  .footer-container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    align-items: center;
+  }
+  .footer-container h3 {
+    grid-column: 1;
+  }
+  .site-info {
+    grid-column: 1/2;
+  }
+  .social-media {
+    grid-column: 2;
+  }
+}

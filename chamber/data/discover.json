@@ -1,0 +1,52 @@
+{
+  "itemsOfInterest": [
+    {
+      "name": "Brigham Young University-Idaho (BYU-Idaho)",
+      "address": "525 S Center St, Rexburg, ID 83460",
+      "description": "The university is a central part of the community, offering cultural events, performances, and a beautiful campus to explore.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/byui.webp"
+    },
+    {
+      "name": "Rexburg Rapids",
+      "address": "50 W 2nd N, Rexburg, ID 83440",
+      "description": "A popular water park in the summer, featuring slides, a lazy river, and pools for family-friendly fun.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/rapids.webp"
+    },
+    {
+      "name": "Legacy Flight Museum",
+      "address": "400 Airport Rd, Rexburg, ID 83440",
+      "description": "This museum showcases a collection of vintage aircraft and offers insights into aviation history.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/museum.webp"
+    },
+    {
+      "name": "Yellowstone Bear World",
+      "address": "6010 S 4300 W, Rexburg, ID 83440",
+      "description": "Located just outside of Rexburg, this drive-through wildlife park allows visitors to see bears, elk, bison, and other animals up close.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/bear-world.webp"
+    },
+    {
+      "name": "Rexburg Nature Park",
+      "address": "5th W & 3rd N, Rexburg, ID 83440",
+      "description": "A great spot for outdoor activities, including walking trails, fishing, and picnicking.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/nature-park.webp"
+    },
+    {
+      "name": "Porter Park",
+      "address": "2nd W & 3rd N, Rexburg, ID 83440",
+      "description": "Known for its historic carousel, this park is a favorite for families and offers playgrounds and open spaces.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/porter-park.webp"
+    },
+    {
+      "name": "Teton Flood Museum",
+      "address": "51 N Center St, Rexburg, ID 83440",
+      "description": "Learn about the history of the Teton Dam disaster and its impact on the region.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/teton-flood-museum.webp"
+    },
+    {
+      "name": "St. Anthony Sand Dunes",
+      "address": "While there isn't a specific street address, the dunes are located approximately 10 miles northwest of St. Anthony, ID. The main access point is often reached via Red Road (ID-33).",
+      "description": "A short drive from Rexburg, these dunes are popular for off-roading, camping, and exploring the unique landscape.",
+      "image": "https://murilolhernandes.github.io/wdd231/chamber/images/sand-dunes.webp"
+    }
+  ]
+}

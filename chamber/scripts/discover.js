@@ -31,7 +31,7 @@ getPlaces();
 const displayPlaces = (itemsOfInterest) => {
   itemsOfInterest.forEach((place) => {
     let card = document.createElement("div");
-    let name = document.createElement("h2");
+    let name = document.createElement("h3");
     let figure = document.createElement("figure");
     let image = document.createElement("img");
     let caption = document.createElement("figcaption");

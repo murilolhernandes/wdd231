@@ -97,11 +97,16 @@ nav a:hover {
 }
 
 /* ---------- Main ---------- */
+.hero-image {
+  background: url("../images/picture.webp") no-repeat center center/cover;
+  padding: 5rem 0;
+}
+
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
   font-size: 2rem;
-  color: #001F3F;
+  color: #ffffff;
   padding: 4rem 0;
 }
 

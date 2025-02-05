@@ -23,8 +23,10 @@
   .header-container.open {
     display: flex;
   }
+  .hero-image {
+    padding: 15rem 0;
+  }
   h1 {
-
     font-size: 3rem;
   }
   #thankyou {

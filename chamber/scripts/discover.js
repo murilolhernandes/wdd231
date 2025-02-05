@@ -16,27 +16,45 @@ hamButton.addEventListener("click", () => {
   image.classList.toggle("close");
 });
 
-const currentUrl = window.location.href;
+const displayDiv = document.querySelector("#places-of-interest");
+const places = "./data/discover.json";
 
-const everything = currentUrl.split("?");
-
-let formData = everything[1].split("&");
-
-function show(cup) {
-  formData.forEach((element) => {
-    if (element.startsWith(cup)) {
-      result = decodeURIComponent(element.split("=")[1]).replace(/\+/g, " ");
-    }
-  })
-  return(result);
+async function getPlaces() {
+  const response = await fetch(places);
+  const data = await response.json();
+  displayPlaces(data.itemsOfInterest);
+  // console.log(data.itemsOfInterest);
 }
 
-const showInfo = document.querySelector("#thankyou");
-showInfo.innerHTML = `
-<p><strong>Thank you for your submission!</strong></p>
-<p><strong>Name:</strong> ${show("firstName")} ${show("lastName")}</p>
-<p><strong>Your Email:</strong> <a href="mailto:${show("email")}">${show("email")}</a></p>
-<p><strong>Your Phone:</strong> ${show("phone")}</p>
-<p><strong>Business Name:</strong> ${show("businessName")}</p>
-<p><strong>Timestamp:</strong> ${show("timestamp")}</p>
-`;
+getPlaces();
+
+const displayPlaces = (itemsOfInterest) => {
+  itemsOfInterest.forEach((place) => {
+    let card = document.createElement("div");
+    let name = document.createElement("h2");
+    let figure = document.createElement("figure");
+    let image = document.createElement("img");
+    let caption = document.createElement("figcaption");
+    let p1 = document.createElement("p");
+    let p2 = document.createElement("p");
+    // let p3 = document.createElement("p");
+
+    name.textContent = `${place.name}`;
+    image.setAttribute("src", place.image);
+    image.setAttribute("alt", place.name);
+    image.setAttribute("loading", "lazy");
+    image.setAttribute("width", place.width);
+    image.setAttribute("height", place.height);
+    caption.textContent = `${place.name}`;
+    p1.textContent = `${place.description}`;
+    p2.textContent = `${place.address}`;
+
+    card.appendChild(name);
+    figure.appendChild(image);
+    figure.appendChild(caption);
+    card.appendChild(figure);
+    card.appendChild(p1);
+    card.appendChild(p2);
+    displayDiv.appendChild(card);
+  });
+}

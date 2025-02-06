@@ -170,30 +170,34 @@ p {
   "button";
   gap: 1rem;
   justify-items: center;
+  align-items: center;
 }
 
-.card h3 {
+.name {
   grid-area: name;
 }
 
-.card img {
+.photograph {
+  grid-area: photograph;
+} 
+
+.photograph img {
   border-radius: 12px;
   object-fit: cover;
   width: 100%;
   height: 100%;
-  grid-area: photograph;
-} 
+}
 
 .card figcaption {
   /* grid-area: figcaption; */
   display: none;
 }
 
-.card .description {
+.description {
   grid-area: description;
 }
 
-.card .location {
+.location {
   grid-area: location;
 }
 

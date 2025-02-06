@@ -92,11 +92,10 @@ const overlay = document.querySelector("#overlay");
 const closeBtn = document.querySelector("#close-btn");
 const visitMessage = document.querySelector("#visit-message");
 const lastVisit = localStorage.getItem("lastVisit");
-const currentVisit = new Date();
 
 if (lastVisit) {
   const lastVisitDate = new Date(lastVisit);
-  const timeDiff = currentVisit - lastVisitDate;
+  const timeDiff = today - lastVisitDate;
   const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
   if (daysDiff === 0) {
@@ -110,7 +109,7 @@ if (lastVisit) {
   visitMessage.innerHTML = `<strong>Welcome! Let us know if you have any questions.</strong>`;
 }
 
-localStorage.setItem("lastVisit", currentVisit);
+localStorage.setItem("lastVisit", today);
 
 overlay.style.visibility = "visible";
 overlay.style.opacity = "1";

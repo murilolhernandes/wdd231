@@ -97,6 +97,47 @@ nav a:hover {
 }
 
 /* ---------- Main ---------- */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.overlay-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  align-items: center;
+}
+
+#visit-message {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #001F3F;
+}
+
+.close-btn {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-btn::before {
+  content: "❌";
+}
+
 .hero-image {
   background: url("../images/picture.webp") no-repeat center center/cover;
   padding: 5rem 0;

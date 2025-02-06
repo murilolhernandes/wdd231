@@ -53,7 +53,6 @@ const displayPlaces = (itemsOfInterest) => {
     description.classList.add("description");
     location.classList.add("location");
     container.classList.add("container");
-    // let p3 = document.createElement("p");
 
     h3.textContent = `${place.name}`;
     image.setAttribute("src", place.image);
@@ -80,3 +79,43 @@ const displayPlaces = (itemsOfInterest) => {
     displayDiv.appendChild(container);
   });
 }
+
+// function setTestDate(daysAgo) {
+//   const testDate = new Date();
+//   testDate.setDate(testDate.getDate() - daysAgo);
+//   localStorage.setItem("lastVisit", testDate);
+// }
+
+// setTestDate(5);
+
+const overlay = document.querySelector("#overlay");
+const closeBtn = document.querySelector("#close-btn");
+const visitMessage = document.querySelector("#visit-message");
+const lastVisit = localStorage.getItem("lastVisit");
+const currentVisit = new Date();
+
+if (lastVisit) {
+  const lastVisitDate = new Date(lastVisit);
+  const timeDiff = currentVisit - lastVisitDate;
+  const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+
+  if (daysDiff === 0) {
+    visitMessage.innerHTML = `<strong>Back so soon! Awesome!</strong>`;
+  } else if (daysDiff === 1) {
+    visitMessage.innerHTML = `<strong>Welcome back! You last visited ${daysDiff} day ago.</strong>`;
+  } else {
+    visitMessage.innerHTML = `<strong>Welcome back! You last visited ${daysDiff} days ago.</strong>`;
+  }
+} else {
+  visitMessage.innerHTML = `<strong>Welcome! Let us know if you have any questions.</strong>`;
+}
+
+localStorage.setItem("lastVisit", currentVisit);
+
+overlay.style.visibility = "visible";
+overlay.style.opacity = "1";
+
+closeBtn.addEventListener("click", () => {
+  overlay.style.visibility = "hidden";
+  overlay.style.opacity = "0";
+});

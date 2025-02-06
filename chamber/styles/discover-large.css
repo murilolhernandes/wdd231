@@ -37,6 +37,15 @@
     "button button";
     gap: 1rem;
   }
+  .card img:hover {
+    box-shadow: 0 0 30px #000;
+    animation: tilt 1s ease-in-out;
+  }
+  @keyframes tilt {
+    0%, 100% { transform: rotate(0); }
+    20%, 60% { transform: rotate(-5deg); }
+    40%, 80% { transform: rotate(5deg); }
+  }
   #menu {
     display: none;
   }

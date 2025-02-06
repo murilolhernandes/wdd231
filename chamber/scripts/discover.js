@@ -30,16 +30,32 @@ getPlaces();
 
 const displayPlaces = (itemsOfInterest) => {
   itemsOfInterest.forEach((place) => {
+    let container = document.createElement("div");
     let card = document.createElement("div");
-    let name = document.createElement("h3");
+    let photograph = document.createElement("div");
+    let name = document.createElement("div");
+    let description = document.createElement("div");
+    let location = document.createElement("div");
     let figure = document.createElement("figure");
     let image = document.createElement("img");
     let caption = document.createElement("figcaption");
+    let h3 = document.createElement("h3");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
+    let learnMore = document.createElement("button");
+    learnMore.classList.add("learn-more");
+    learnMore.textContent = "Learn More";
+    p1.classList.add("description");
+    p2.classList.add("location");
+    card.classList.add("card");
+    photograph.classList.add("photograph");
+    name.classList.add("name");
+    description.classList.add("description");
+    location.classList.add("location");
+    container.classList.add("container");
     // let p3 = document.createElement("p");
 
-    name.textContent = `${place.name}`;
+    h3.textContent = `${place.name}`;
     image.setAttribute("src", place.image);
     image.setAttribute("alt", place.name);
     image.setAttribute("loading", "lazy");
@@ -49,12 +65,18 @@ const displayPlaces = (itemsOfInterest) => {
     p1.textContent = `${place.description}`;
     p2.textContent = `${place.address}`;
 
-    card.appendChild(name);
+    name.appendChild(h3);
     figure.appendChild(image);
     figure.appendChild(caption);
-    card.appendChild(figure);
-    card.appendChild(p1);
-    card.appendChild(p2);
-    displayDiv.appendChild(card);
+    photograph.appendChild(figure);
+    description.appendChild(p1);
+    location.appendChild(p2);
+    card.appendChild(photograph);
+    card.appendChild(name);
+    card.appendChild(description);
+    card.appendChild(location);
+    card.appendChild(learnMore);
+    container.appendChild(card);
+    displayDiv.appendChild(container);
   });
 }

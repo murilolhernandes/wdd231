@@ -124,15 +124,97 @@ h2 {
   text-align: center;
 }
 
-#thankyou {
-  padding: 2rem;
+h3 {
+  color: #001F3F;
+  font-family: "Helvetica", sans-serif;
+  padding: 1rem 0;
+}
+
+figcaption {
+  color: #000;
+  font-family: "Helvetica", sans-serif;
 }
 
 p {
   color: #333333;
   font-family: "Helvetica", sans-serif;
-  
 }
+
+/* #places-of-interest div {
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+.card {
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem;
+
+  display: grid;
+  grid-template-areas:
+  "name"
+  "photograph"
+  /* "figcaption" */
+  "description"
+  "location"
+  "button";
+  gap: 1rem;
+  justify-items: center;
+}
+
+.card h3 {
+  grid-area: name;
+}
+
+.card img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  grid-area: photograph;
+} 
+
+.card figcaption {
+  /* grid-area: figcaption; */
+  display: none;
+}
+
+.card .description {
+  grid-area: description;
+}
+
+.card .location {
+  grid-area: location;
+}
+
+.learn-more {
+  background-color: #001F3F;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 12px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  width: 100%;
+  grid-area: button;
+}
+
+.learn-more:hover {
+  background-color: #fff;
+  color: #001F3F;
+  cursor: pointer;
+}
+
 /* ---------- Footer ---------- */
 footer {
   color: #001F3F;

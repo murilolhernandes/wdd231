@@ -29,9 +29,7 @@
   h1 {
     font-size: 3rem;
   }
-  #places-of-interest div{
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, auto); */
+  .card {
     grid-template-areas:
     "name name"
     "photograph description"
@@ -39,10 +37,6 @@
     "button button";
     gap: 1rem;
   }
-  /* #places-of-interest div img {
-    width: 300px;
-    height: auto;
-  } */
   #menu {
     display: none;
   }

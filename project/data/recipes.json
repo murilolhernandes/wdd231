@@ -1,0 +1,1194 @@
+{
+  "recipes": {
+    "mainDishes": [
+      {
+        "name": "Chicken Pot Pie Soup",
+        "recipeRating": 4.5,
+        "description": "Chicken pot pie soup — talk about a tasty twist on tradition! This rich and creamy soup has all the things we love about chicken pot pie, but in a soup.",
+        "author": "Shelia Johnson",
+        "prepTime": "15 mins",
+        "cookTime": "30 mins",
+        "additionalTime": null,
+        "totalTime": "45 mins",
+        "serving": 8,
+        "yield": null,
+        "ingredients": ["1/4 cup vegetable oil, divided", "4 to 6 bone-in, skin on chicken thighs", "1 teaspoon all-purpose seasoning, plus more as needed", "1 large yellow onion, chopped", "2 stalks celery, chopped", "4 carrots, cut into bite-sized pieces", "2 cloves garlic, chopped", "1 cup mushrooms, cut into bite-sized pieces", "1 cube chicken bouillon, or more to taste", "2 teaspoons dried rosemary", "1/4 cup all-purpose flour", "1 (12 ounce) bag mixed frozen vegetables", "4 cups chicken stock, or more as needed", "1 cup heavy cream or half-and-half"],
+        "steps": [
+          ["Step 1", "Heat 3 tablespoons oil in a Dutch oven or large cast iron skillet over medium heat. Pat chicken dry with a paper towel and season to taste with all-purpose seasoning."],
+          ["Step 2", "Cook chicken thighs until browned, about 6 to 7 minutes on each side; transfer chicken to a platter to cool."],
+          ["Step 3", "Add onions, celery, carrots, and garlic to the remaining oil in the Dutch oven (add 1 tablespoon more oil if needed). Season mixture with 1 teaspoon all-purpose seasoning to layer the flavor. Cook and stir until onions begin to turn translucent, 3 to 4 minutes."],
+          ["Step 4", "Add mushrooms, chicken bouillon cube, and dried rosemary. Cook and stir for 2 minutes. Whisk in flour; cook for 1 to 2 minutes."],
+          ["Step 5", "Slowly whisk in chicken stock. Bring to a simmer and continue stirring until flour is well mixed into stock. Cook, stirring constantly, until soup begins to thicken. Depending on how thick you would like your soup, you may need to add a little more stock."],
+          ["Step 6", "Meanwhile, remove skin from chicken thighs, pull the meat apart, and add to the pot. Continue to stir for 1 minute. Cover and cook at a low simmer for 10 to 12 minutes."],
+          ["Step 7", "Add frozen vegetables; stir and reduce heat. Pour in heavy cream and stir well to blend in the cream. Cover, and return soup to a simmer, 3 to 5 minutes. Remove from heat, stir, and serve immediately."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/7MJC8QoIkYHtZ-eFpEiS4F3ghQE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8600604_Chicken-Pot-Pie-Soup_Shelia-Johnson_4x3-5a2ff8adf5274bbd953ec86cd515c3eb.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Maria Lopez",
+            "commentRating": 5,
+            "date": "2024-11-22",
+            "comment": "A keeper!"
+          },
+          {
+            "name": "John Smith",
+            "commentRating": 5,
+            "date": "2024-03-12",
+            "comment": "I did not add mushrooms."
+          }
+        ]
+      },
+      {
+        "name": "Grilled Skirt Steak with Roasted Potatoes",
+        "recipeRating": 5,
+        "description": "Steak and potatoes, perfectly seasoned, grilled, and baked to perfection in about 30 minutes. This recipe was made in a Panasonic CIO.",
+        "author": "Elizabeth",
+        "prepTime": "15 mins",
+        "cookTime": "22 mins",
+        "additionalTime": "3 mins",
+        "totalTime": "40 min",
+        "serving": 4,
+        "yield": "4 servings",
+        "ingredients": ["1/4 cup ketchup", "2 tablespoons Worcestershire sauce", "4 cloves garlic, minced, divided", "2 teaspoons salt, divided", " teaspoon ground black pepper, divided", "1 pound skirt steak", "4 russet potatoes, diced small", "2 tablespoons extra-virgin olive oil, or more to taste"],
+        "steps": [
+          ["Step 1", "Combine ketchup, Worcestershire sauce, 2 cloves of garlic, 1 teaspoon salt, and 1/2 teaspoon pepper in a small dish or resealable plastic bag. Mix thoroughly and add steak."],
+          ["Step 2", "Mix potatoes, remaining 2 cloves garlic, 1 teaspoon salt, 1/2 teaspoon pepper, and oil together in a bowl. Pour into the grill pan."],
+          ["Step 3", "Place grill pan in the Panasonic® Countertop Induction Oven. Press \"Auto Cook\" and select setting 4, 12-inch size. Press \"Start\" and cook for 15 minutes. Mix potatoes, return to oven, set the timer for 5 minutes, and press \"Start.\" Transfer potatoes to a serving plate."],
+          ["Step 4", "Preheat oven to High on the \"Grill\" setting."],
+          ["Step 5", "Wipe off any garlic from the grill pan with a paper towel. Remove steak from marinade and add to the pan."],
+          ["Step 6", "Grill steak for 1 minute per side. Remove and let rest for 3 minutes. Slice steak and serve with roasted potatoes."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/gjpm1TsZabi2kaq6tWud2NDAnbU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4465623-990b69a258e84c0bb28470c166bd90da.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Jose Navarro",
+            "commentRating": 5,
+            "date": "2021-08-26",
+            "comment": "The Roasted Potatoes were AMAZING!!!"
+          },
+          {
+            "name": "Ellen Masterson",
+            "commentRating": 5,
+            "date": "2021-01-24",
+            "comment": "I don't have the Panasonic Induction oven, but cooked meat on grill side of griddle on stove top and it was delicious."
+          },
+          {
+            "name": "CinPim",
+            "commentRating": 4,
+            "date": "2019-10-02",
+            "comment": "I just marinated the steak for about 4 hours and then grilled it on a gas grill. I did make roasted red potatoes, but used another recipe for that. My husband RAVED about the steak!"
+          },
+          {
+            "name": "maria",
+            "commentRating": 5,
+            "date": "2018-08-09",
+            "comment": "Really easy and good flavor"
+          }
+        ]
+      },
+      {
+        "name": "Best Salmon Bake",
+        "recipeRating": 4.5,
+        "description": "Cook salmon in the oven for a deliciously quick and simple dinner for any occasion. These salmon fillets are topped with chopped tomato and green onion, and baked in the oven to perfection.",
+        "author": "MAGGIE1205",
+        "prepTime": "15 mins",
+        "cookTime": "20 mins",
+        "additionalTime": null,
+        "totalTime": "35 mins",
+        "serving": 2,
+        "yield": null,
+        "ingredients": ["1 (1 pound) salmon fillet, halved", "1 small tomato, chopped", "5 green onions, chopped", "1/4 teaspoon salt", "1/4 teaspoon pepper"],
+        "steps": [
+          ["Step 1", "Gather all ingredients."],
+          ["Step 2", "Preheat the oven to 350 degrees F (175 degrees C)."],
+          ["Step 3", "Place salmon on a lightly oiled sheet pan or in a shallow baking dish, folding under thin outer edges of fillets for even cooking."],
+          ["Step 4", "Top salmon with chopped tomatoes and green onions, and season with salt and pepper."],
+          ["Step 5", "Cook salmon in the preheated oven, uncovered, until fish flakes easily with a fork, about 20 minutes."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/jm8hkmo6VRhK0pPb9Eaej5Nv5Lw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/71387-best-salmon-bake-DDMFS-4x3-91f1e33eb94440b3af4b6cf2b51d7605.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Kathleen Graham",
+            "commentRating": 5,
+            "date": "2023-08-13",
+            "comment": "Added a very thin layer of mayonnaise on the top before the onions, tomatoes & seasoning! YUM! Thanks for this recipe! 💗"
+          },
+          {
+            "name": "John Falenski",
+            "commentRating": 4,
+            "date": "2023-07-19",
+            "comment": "Note to Plano_Harry - Thanks! Your recipe took me to great page w/fabulous recipes.BTW - for 50+ yrs our family has made a version of this with salmon, tomatoes, mozz cheese, then the gr onions. Give that one a try."
+          },
+          {
+            "name": "Deb Hanson",
+            "commentRating": 4,
+            "date": "2022-02-11",
+            "comment": "Good recipe, however I topped with lemon juice and some fresh dill with the tomatoes for some added flavor."
+          },
+          {
+            "name": "Angela Essenmacher",
+            "commentRating": 5,
+            "date": "2023-03-24",
+            "comment": "I really liked this. After reading the other reviews, I decided to make a few changes. I put lemon juice on two small fillets, garlic salt, and salt and pepper. I cut grape tomatoes into slices and arranged them on top. Delicious!"
+          }
+        ]
+      },
+      {
+        "name": "Easy Parmesan-Crusted Chicken",
+        "recipeRating": 4.5,
+        "description": "Make juicy Parmesan-crusted chicken with this quick and easy recipe.",
+        "author": "Hellmann's",
+        "prepTime": "10 mins",
+        "cookTime": "20 mins",
+        "additionalTime": null,
+        "totalTime": "30 mins",
+        "serving": 4,
+        "yield": null,
+        "ingredients": ["1/2 cup Hellmann's® Real Mayonnaise", "1/4 cup grated Parmesan cheese", "4 (5 ounce) boneless, skinless chicken breast halves", "4 teaspoons Italian-seasoned dry bread crumbs"],
+        "steps": [
+          ["Step 1", "Gather all ingredients."],
+          ["Step 2", "Preheat the oven to 425 degrees F (220 degrees C). Line a rimmed baking sheet with parchment paper."],
+          ["Step 3", "Mix mayonnaise and Parmesan together in a medium bowl until well combined."],
+          ["Step 4", "Arrange chicken on the prepared baking sheet. Spread mayonnaise mixture over top, then top with bread crumbs."],
+          ["Step 5", "Cook in the preheated oven until chicken is no longer pink in the center and the juices run clear, about 20 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/ngQHDPvf8IK7xbjsYqGzwfFjFls=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/222171-easy-parmesan-crusted-chicken-DDMFS-step-04-2953-1e41f7a2d74643b2b34d1dd48c99d605.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Desiree Robinson",
+            "commentRating": 4,
+            "date": "2020-06-19",
+            "comment": "As written the recipe is pretty good. I didn't need all the mayo to coat the chicken. The breading can get a little soggy. Second time around I made some adjustments. Instead of combining everything, I thinly coated the chicken with mayo and then dredged it in the bread crumb mixture. For the mixture, I added a few seasonings to my taste, like pepper and garlic powder. When cooking, I put the breasts on a baking rack to keep from getting soggy. Made it 5 stars"
+          },
+          {
+            "name": "KITHOPE",
+            "commentRating": 5,
+            "date": "2024-01-12",
+            "comment": "Love this recipe. I add fresh garlic to the mayo and let it sit in the fridge for a couple of hours before I spread it on the chicken - really amps up the flavor."
+          },
+          {
+            "name": "Darla",
+            "commentRating": 5,
+            "date": "2024-02-03",
+            "comment": "Substituted plain Greek yogurt for mayo because of an egg allergy, it was good. I rubbed mix all over chicken and coated in bread crumbs. Will make again."
+          },
+          {
+            "name": "Gary",
+            "commentRating": 4,
+            "date": "2023-08-22",
+            "comment": "This is good, but I used half the mayo and added an egg with fresh grated Parmesan, Romano, and Asiago cheeses, pepper, garlic powder, and roasted some Panko bread crumbs first. Came out crispy, juicy and delicious!"
+          }
+        ]
+      },
+      {
+        "name": "Slow Cooker Beef Stew",
+        "recipeRating": 4.5,
+        "description": "This easy slow cooker beef stew recipe made with potatoes, carrots, celery, broth, herbs, and spices is hearty and comforting. You won't be slow to say 'yum'!",
+        "author": "BUCHKO",
+        "prepTime": "20 mins",
+        "cookTime": "4 hrs",
+        "additionalTime": null,
+        "totalTime": "4 hrs 20 mins",
+        "serving": 5,
+        "yield": null,
+        "ingredients": ["2 pounds beef stew meat, cut into 1-inch pieces", "1/4 cup all-purpose flour", "teaspoon salt", "teaspoon ground black pepper", "1 1/2 cups beef broth", "4 medium carrots, sliced", "3 medium potatoes, diced", "1 medium onion, chopped", "1 stalk celery, chopped", "1 teaspoon Worcestershire sauce", "1 teaspoon ground paprika", "1 clove garlic, minced", "1 large bay leaf"],
+        "steps": [
+          ["Step 1", "Gather all ingredients."],
+          ["Step 2", "Place beef in the slow cooker."],
+          ["Step 3", "Mix flour, salt, and pepper together in a small bowl; pour over beef and stir until coated."],
+          ["Step 4", "Add beef broth, carrots, potatoes, onion, celery, Worcestershire sauce, paprika, garlic, and bay leave; stir to combine."],
+          ["Step 5", "Cover, and cook until beef is tender enough to cut with a spoon, on Low for 8 to 12 hours, or on High for 4 to 6 hours."],
+          ["Step 6", "Serve hot and enjoy!"]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/9v5BkV45vbBiDImKJrl8NUhYz2Q=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/14685-slow-cooker-beef-stew-i-DDMFS-4x3-6f0208563f4c43d6a80fdb077c19fe4e.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "JenM",
+            "commentRating": 4,
+            "date": "2006-12-04",
+            "comment": "I followed Corinnes suggestions and this came out fantastic! The flavor and cosistency were wonderful, and just as good the next day. So you dont have to search for it, here is her suggestion: 1. Increase flour to 1/3 cup and substitute seasoned salt for regular salt. Put flour mixture into gallon-sized, zippered bag. Shake beef in bag to coat. Sauté coated beef in 1-2 tablespoons olive oil until browned. Add chopped onion to beef to sauté and soften. Transfer to slow cooker. 2. Mix beef broth with 1 TABLEspoon Worcestershire and ½ cup red wine. Pour into hot skillet to deglaze, then pour over beef and onions in cooker. 3. Add remaining ingredients with these additions: increase garlic to 2 cloves minced, 2 bay leaves; add 1 packet McCormick's Beef Stew Seasoning."
+          },
+          {
+            "name": "MICHNATIVE",
+            "commentRating": 5,
+            "date": "2007-01-27",
+            "comment": "I made this stew for the first time using Corinne's suggestion. The stew turned out great! The next week, I made the stew following the exact recipe (minus the celery, since I didn't have any); and I must say that the stew turned out EVEN BETTER when following the exact recipe. (Also, I didn't have as many dishes to wash.) This stew is SO DELICIOUS. Next time I make this you can bet I will follow the recipe EXACTLY AS WRITTEN."
+          },
+          {
+            "name": "Sariah Hansen",
+            "commentRating": 5,
+            "date": "2023-12-11",
+            "comment": "Delicious!I read Connie's comment and decided to add soy sauce and I also seared the meat.I've made this recipe many times before...but adding that soy sauce just gives it that lil something extra, so good!"
+          },
+          {
+            "name": "KLY0424",
+            "commentRating": 4,
+            "date": "2022-11-10",
+            "comment": "A great easy recipe that will satisfy the whole family. I agree with the previous post, needs more flavor so I increased salt (1 1/2 tsp, 1 tsp pepper, garlic (4 gloves) & Worchester amounts. I also added some garlic powder to the flour mixture."
+          }
+        ]
+      },
+      {
+        "name": "Lsagna Flatbread",
+        "recipeRating": 4.5,
+        "description": "A simple lasagna pizza.",
+        "author": "apk979",
+        "prepTime": "25 mins",
+        "cookTime": "15 mins",
+        "additionalTime": null,
+        "totalTime": "40 mins",
+        "serving": 6,
+        "yield": "6 servings",
+        "ingredients": ["1 (15 ounce) container ricotta cheese", "1 (8 ounce) package shredded mozzarella cheese, divided", "1 (3 ounce) package Parmesan cheese", "1 egg", "2 teaspoons Italian seasoning", "1 pound sausage", "1/2 (26 ounce) jar marinara sauce", "6 flatbreads"],
+        "steps": [
+          ["Step 1", "Preheat oven to 375 degrees F (190 degrees C)."],
+          ["Step 2", "Combine ricotta cheese, 1/2 of the mozzarella cheese, Parmesan cheese, egg, and Italian seasoning in a bowl."],
+          ["Step 3", "Cook sausage in a skillet over medium heat until no longer pink, 5 to 10 minutes; drain. Stir in marinara sauce."],
+          ["Step 4", "Spread 1/6 of the cheese mixture evenly on each flatbread; cover with sausage mixture. Top with remaining mozzarella cheese."],
+          ["Step 5", "Bake in the preheated oven until cheese is melted and bubbly, 10 to 15 minutes."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/Kcq0i2YFZ3JO0_84NmvnI3BdY8I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9426301-ccfa09cebf604e14a46f40fe298577a3.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Ken",
+            "commentRating": 4,
+            "date": "2018-11-17",
+            "comment": "I reduced the ricotta cheese to about 10 oz. and added 10 Crimini mushrooms (sliced)to the sausage while it was about 1/2 cooked. My wife and I both loved the final product and will make it again."
+          },
+          {
+            "name": "Byrrd",
+            "commentRating": 4,
+            "date": "2018-11-14",
+            "comment": "Good basic recipe. I added some sauteed mushrooms, garlic, onion and bell pepper to the meat mixture (ground Italian sausage). Will work with adjusting the seasoning next. Great the next day for lunch. A meatless version of this would also be so simple. A definite do-over dish for us."
+          },
+          {
+            "name": "MeddlingMonkeys",
+            "commentRating": 5,
+            "date": "2017-12-22",
+            "comment": "I love this simple recipe! I used garlic naan instead of flatbread. Since I am vegetarian, I chopped up some thin \"chicken\" strips to replace the sausage on top and it was soo good! We plan on experimenting with different toppings like sauteed mushrooms, olives, etc. Thank you for what will surely be a recurring favorite!"
+          },
+          {
+            "name": "Kate",
+            "commentRating": 5,
+            "date": "2018-11-17",
+            "comment": "Used sweet onion pita and baked two on a rack. I substituted sharp cheddar for ricotta. This is the easiest recipe for one-person meal; refrigerated and reheated second one @375; even better the next day for lunch."
+          }
+        ]
+      },
+      {
+        "name": "Chicken, Sausage, Peppers, and Potatoes",
+        "recipeRating": 5,
+        "description": "Chicken, sausage, and peppers are roasted with Yukon Gold potatoes in a very hot oven until beautifully caramelized. You'll need a large, heavy-duty roasting pan (or a couple of smaller ones) for this delicious dish.",
+        "author": "John Mitzewich",
+        "prepTime": "30 mins",
+        "cookTime": "1 hr 10 mins",
+        "additionalTime": "5 mins",
+        "totalTime": "1 hr 45 mins",
+        "serving": 6,
+        "yield": null,
+        "ingredients": ["2 tablespoons olive oil, divided", "4 large links hot Italian sausage", "6 bone-in, skin on chicken thighs", "1/2 pound assorted sweet peppers, seeded", "4 large Yukon Gold potatoes, quartered", "1 small red onion, sliced", "1/2 medium yellow onion, sliced", "2 teaspoons dried Italian herbs", "2 teaspoons kosher salt", "freshly ground black pepper to taste", "1 tablespoon chopped fresh Italian parsley"],
+        "steps": [
+          ["Step 1", "Preheat the oven to 450 degrees F (230 degrees C)."],
+          ["Step 2", "Heat 1 tablespoon oil in a skillet over medium heat. Add sausage links and cook until browned and fat begins to render, about 3 minutes per side. While they cook, lightly pierce sausages in several places with the tip of a sharp knife to release fats and juices. Remove from the heat and place on a cutting board to cool slightly, 3 to 5 minutes."],
+          ["Step 3", "Cut cooled sausages into 2-inch slices; return to the skillet along with any accumulated juices from the cutting board."],
+          ["Step 4", "Cut two slashes down to the bone on the skin side of each chicken thigh. Halve or quarter any large peppers."],
+          ["Step 5", "Place chicken and peppers into a large mixing bowl with onions, sausage and juices, Italian herbs, salt, and pepper. Drizzle with remaining 1 tablespoon oil and mix with your hands until all ingredients are coated in oil, 3 to 4 minutes."],
+          ["Step 6", "Transfer mixture to a large, heavy-duty roasting pan. Evenly space chicken thighs with the skin facing up and position potatoes near the top."],
+          ["Step 7", "Roast in the preheated oven until chicken is cooked through and everything is caramelized, about 1 hour. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Sprinkle with chopped fresh Italian parsley."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/RgTyqSZLcmrpLnac5FnQos8sZFU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4086481-chicken-sausage-peppers-and-potatoes-Chef-John-1x1-1-7b01cd012e2e45aa95ba202f2f59e846.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "TRELAINA",
+            "commentRating": 5,
+            "date": "2016-11-14",
+            "comment": "We LOVE this recipe. It is great when you have a crowd to feed. I generally don't brown the sausage ahead of time as I find it browns up just fine in the pan (and I use mild sausage so I don’t get that oil anyway). Thank you Chef John!"
+          },
+          {
+            "name": "Curtis Partridge",
+            "commentRating": 5,
+            "date": "2023-04-24",
+            "comment": "I made this as written with only minor adjustments to the serving size and time in the oven. With only my wife and me eating this dish, I went with four chicken thighs and three sausage links. After reading some comments about the vegetables and meat being overcooked or even \"burnt to a crisp\", I decided to check the chicken after 45 minutes with a possibility of additional time if needed. I was glad I did, because the chicken was 165º, the potatoes, peppers and sausages were perfectly cooked. I lightly tented the dish for about 5-7 minutes while I warmed the serving bowls before serving. Unfortunately, we \"scarfed down\" the meal without getting a photo to post, however, it looked just like Chef John's video and photo. Yum!"
+          },
+          {
+            "name": "John B",
+            "commentRating": 4,
+            "date": "2023-10-23",
+            "comment": "This is my go-to recipe when I have no idea what to make. There is a lot of concern about the 450° for 1 hour so I go 450 for 30 minutes and then 350 for the other 30. I also use boneless chicken breast versus the thighs. Don't forget to baste. Comes out great"
+          },
+          {
+            "name": "EKbrook",
+            "commentRating": 5,
+            "date": "2020-08-18",
+            "comment": "This was really good, but make sure to put dish on lowest rack of 450 degree oven to prevent things on top charring. I would also ensue chicken is skin side up and on the top layer to ensure it browns nicely. Great flavor and relatively easy."
+          }
+        ]
+      },
+      {
+        "name": "Easy Baked Chicken Drumsticks",
+        "recipeRating": 4.5,
+        "description": "Crispy on the outside, tender and juicy on the inside. These budget-friendly drumsticks offer buttery flavor with every bite. The perfect meal for any night of the week!",
+        "author": "Le12ahw",
+        "prepTime": "10 mins",
+        "cookTime": "45 mins",
+        "additionalTime": null,
+        "totalTime": "55 mins",
+        "serving": 6,
+        "yield": null,
+        "ingredients": ["1/2 cup extra-virgin olive oil, divided", "6 (4 ounce) bone-in chicken drumsticks, with skin", "6 tablespoons unsalted butter, softened", "1 pinch garlic salt, or to taste", "1 pinch seasoned salt, or to taste", "salt and ground black pepper to taste"],
+        "steps": [
+          ["Step 1", "Preheat the oven to 375 degrees F (190 degrees C). Line a glass or ceramic baking dish with foil."],
+          ["Step 2", "Spread 1/4 cup of olive oil on the bottom of the prepared baking dish. Add drumsticks in a single layer, alternating directions to fit. Top each with 1 tablespoon butter. Sprinkle with garlic salt, seasoned salt, salt, and pepper."],
+          ["Step 3", "Bake in the preheated oven for 35 minutes. Brush remaining 1/4 cup oil over chicken. Continue to bake until no longer pink, and juices run clear, 10 to 15 minutes more. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C)."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/HsC9pbV65HNhIbriNatK4OIwuSk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9412560-3b06db771e9c40088dad61107ddc89fa.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Hannah Tyson",
+            "commentRating": 5,
+            "date": "2024-12-23",
+            "comment": "A keeper!"
+          },
+          {
+            "name": "Wizzard",
+            "commentRating": 5,
+            "date": "2024-10-04",
+            "comment": "Followed the recipe exactly."
+          },
+          {
+            "name": "Brandon",
+            "commentRating": 5,
+            "date": "2024-06-24",
+            "comment": "Great in a pinch. I didn't use butter, but it came out very well."
+          },
+          {
+            "name": "Livia H.",
+            "commentRating": 5,
+            "date": "2024-04-05",
+            "comment": "We added a touch of Cumin, Garlic Salt, and Black Pepper... perfectly cooked and it turned out delicious!!!!"
+          }
+        ]
+      },
+      {
+        "name": "Tex-Mex Pork Chops and Rice Skillet",
+        "recipeRating": 5,
+        "description": "Brown some chops, then add vegetables, broth and rice. This dinner only needs one skillet, a knife, a cutting board, some measuring cups and spoons, a can opener, and a mixing and serving spoon. We like this with simple quesadillas and a salad. Add some avocado slices, if you like!",
+        "author": "Brenda Venable",
+        "prepTime": "15 mins",
+        "cookTime": "30 mins",
+        "additionalTime": null,
+        "totalTime": "45 mins",
+        "serving": 4,
+        "yield": null,
+        "ingredients": ["2 tablespoons olive oil", "4 boneless pork chops, about 3/4-inch thick", "2 teaspoons taco seasoning spice blend", "1 teaspoon ground cumin", "1 teaspoon smoked paprika", "1/4 teaspoon salt", "1 cup chopped onion", "1 cup coarsely chopped green bell pepper", "2 cloves garlic, minced", "2 (10-ounce) cans diced tomatoes and green chilies (such as Ro-tel®), with juice", "1 teaspoon chili powder", "freshly ground black pepper to taste", "1 1/4 cups chicken broth", "2 cups frozen corn kernels, thawed", "2 cups sliced zucchini", "1 cup uncooked rice", "flat-leaf parsley or cilantro (optional)", "lime slices (optional)"],
+        "steps": [
+          ["Step 1", "Heat olive oil over medium heat in a 12-inch skillet. Season both sides of pork chops with taco seasoning, cumin, smoked paprika, and salt."],
+          ["Step 2", "Place chops in the hot skillet and cook, turning once, until browned on both sides, about 2 minutes per side. Remove to a plate, and keep warm."],
+          ["Step 3", "In the same skillet, cook and stir onion and bell pepper, until the vegetables just begin to pick up a little color, about 2 minutes. Add garlic and cook until fragrant, about 30 seconds."],
+          ["Step 4", "Pour in diced tomatoes and green chilies, with their juices, and stir, being sure to scrape up any browned bits on the bottom of the skillet."],
+          ["Step 5", "Add chili powder and black pepper to the chicken broth, and stir in."],
+          ["Step 6", "Add thawed corn kernels, sliced zucchini, and uncooked rice. Stir until vegetables are evenly distributed, and make sure all the rice is submerged in the cooking liquid. Bring to a boil."],
+          ["Step 7", "Nestle pork chops into the skillet contents, and add any accumulated juices from the chops. Cover, reduce heat to low, and simmer about 20 minutes."],
+          ["Step 8", "Remove cover, and continue to simmer until rice is tender and all the liquid is absorbed, about 5 minutes more. An instant-read thermometer inserted into the center of pork chops should read 145 degrees F (63 degrees C)."],
+          ["Step 9", "Garnish with flat-leaf parsley or cilantro and lime slices. Serve warm."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/iWAZgeqnbQCmeuFuzhHo4i93d3U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7567945_One-Pan-Tex-Mex-Pork-Chops-and-Rice_Bibi_4x3-1afe62d1afbc409c8203057ff55f306d.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Pablo Escobar",
+            "commentRating": 5,
+            "date": "2023-11-18",
+            "comment": "I typically avoid recipes with so few ratings, but this looked appetizing. So glad I took the chance because it was amazing! This comfort-food meal has terrific flavor but is not overpowering. I served it with a salad, baked sweet potato and hot roll. It won't be long before I will want to prepare it again. It had a bit of a spicy kick that I loved, but I would probably reduce to one can of original Rotel and one can of Mild Rotel if making it for others who enjoy a more mild offering. My only variation was using onion powder instead of fresh onions because of my wife's sensitivity to the fresh version. Thanks so much for this wonderful addition to our family recipes!"
+          },
+          {
+            "name": "scalpod",
+            "commentRating": 5,
+            "date": "2023-08-25",
+            "comment": "I made this without garlic and used green onion instead (wife can't eat regular onions or garlic) but otherwise followed the recipe and it turned out great! It's got a good kick and the pork was perfect. Definitely one of our new favorite ways to eat chops. She said it was 'restaurant quality'!"
+          },
+          {
+            "name": "Dani Alves",
+            "commentRating": 5,
+            "date": "2024-09-10",
+            "comment": "The only veg I had was onion and one can of fire roasted tomatoes with green chilies. I did one cup of rice plus one cup of red chicken bouillon. I browned the rice a few minutes before adding the tomatoes and liquid. No added spices. I decided to bake mine in a casserole dish because I'm a sucker for a casserole 350 for 50 minutes. Next time I will make it your way though. It was so good because of the combination of pork chops, rice, and tomato. I don't think you can go wrong with that trio. I want to see how stovetop cooking compares to the oven cooking. Thank you very much."
+          },
+          {
+            "name": "Shelley Lang",
+            "commentRating": 5,
+            "date": "2024-07-02",
+            "comment": "Delish! Easy to prepare and control the heat/spice level in the dish.Makes a tremendous amount of rice and vegetables. Could support another chop or two if my pan was larger"
+          }
+        ]
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Nutella Cookies",
+        "recipeRating": 4.5,
+        "description": "These Nutella cookies are great for chocolate-hazelnut lovers. I make these all the time and everyone absolutely loves them!",
+        "author": "Carmella DiNardo",
+        "prepTime": "20 mins",
+        "cookTime": "10 mins",
+        "additionalTime": null,
+        "totalTime": "30 mins",
+        "serving": 12,
+        "yield": "2 dozen",
+        "ingredients": ["2 1/2 cups all-purpose flour", "1/4 cup unsweetened cocoa powder", "1 teaspoon baking soda", "1 teaspoon salt", "1 cup butter, room temperature", "3/4 cup brown sugar", "3/4 cup white sugar", "2 large eggs", "2 tablespoons vanilla extract", "1/2 cup chocolate-hazelnut spread, such as Nutella", "1/2 cup chopped toasted hazelnuts", "1 cup chocolate chips"],
+        "steps": [
+          ["Step 1", "Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper."],
+          ["Step 2", "Combine flour, cocoa powder, baking soda, and salt in a bowl. Mix with a whisk to break up any lumps."],
+          ["Step 3", "Beat butter, brown sugar, and white sugar with an electric mixer in a large bowl until smooth. Beat in eggs one at a time until completely incorporated. Mix in vanilla and chocolate-hazelnut spread."],
+          ["Step 4", "Slowly add in flour mixture and stir just until combined. Fold in chopped hazelnuts and chocolate chips. Drop the dough onto prepared baking sheet by tablespoons or with a cookie scoop."],
+          ["Step 5", "Bake in preheated oven until edges look dry and cookies are fragrant, about 10 to 12 minutes. Allow to cool briefly on baking sheet before transferring to a wire rack."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/tAYrKcTCs5QUY-rarWkElqx4MiI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/223312nutella-hazelnut-cookiesKim4x3-65664615e8ff44b3aff48bdd40748b39.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Jen Sze",
+            "commentRating": 5,
+            "date": "2019-02-01",
+            "comment": "Changes I made: Added chopped chocolate chunks, doubled Nutella, 350F for 11 minutes. Toasted hazelnuts in advance. Tablespoon sized round balls, spreads during baking. Refrigerate dough between batches to prevent flatter cookies. Makes about 4 dozen cookies."
+          },
+          {
+            "name": "jasminetoni",
+            "commentRating": 5,
+            "date": "2015-01-18",
+            "comment": "Just made these cookies, RAVE! reviews. Best cookie I ever made. Crisp outside delicious soft moist inside, so awesome. I read the reviews before making this one. I did not have chocolate chips or hazelnuts on hand. Therefore, I used 2 cups flour, 1/2 cup cocoa powder and 3/4 cup Nutrella and 1/2 teaspoon salt. Like one reviewer I rolled into 2 inch balls set timer for 12 minutes they were perfect, like a fancy bakery. Thank you so much for this recipe. It makes me so happy to see big smiles as they munched on these cookies"
+          },
+          {
+            "name": "coleycole",
+            "commentRating": 5,
+            "date": "2014-02-10",
+            "comment": "I added a cup of Nutella instead of a 1/2 cup and I toasted my hazelnuts for 5 mins in the oven first before adding to mixture and they came out great. Even my husband and father who don't care much for sweets couldn't stop eating these."
+          },
+          {
+            "name": "ElsaRo",
+            "commentRating": 4,
+            "date": "2018-04-24",
+            "comment": "I was on the hunt for the perfect Nutella cookie. As per another reviewer's suggestion, I reduced the sugar and doubled up on the Nutella. I also used white chocolate chips as that was all I had on hand. Although we were disappointed that even with the extra Nutella they didn’t taste very “Nutella-y”, these were really delicious cookies. Using a 1 tbsp measure, this recipe yielded ninety (YES 90!) cookies. Will definitely make again, with regular chocolate chips, just to see if that was the missing link."
+          }
+        ]
+      },
+      {
+        "name": "Homemade Thin Mints",
+        "recipeRating": 4,
+        "description": "If you're a fan of Girl Scout Thin Mints cookies, try making these copycat versions yourself.",
+        "author": "Colleen Weeden",
+        "prepTime": "30 mins",
+        "cookTime": "7 mins",
+        "additionalTime": "2 hrs",
+        "totalTime": "2 hrs 37 mins",
+        "serving": 24,
+        "yield": "24 Thin Mints",
+        "ingredients": ["1/2 cup butter, softened", "1/2 cup sugar", "1/4 teaspoon salt", "1 large egg yolk", "1/2 teaspoon peppermint extract", "1 cup flour", "1/4 cup unsweetened cocoa powder", "8 ounces semisweet chocolate, chopped", "8 ounces dark chocolate candy melts"],
+        "steps": [
+          ["Step 1", "Beat butter in a large bowl with an electric mixer at medium speed about 30 seconds. Add sugar and salt and beat until combined. Beat in egg yolk and peppermint extract. Beat in flour and cocoa. Shape dough into a 6-inch roll. Wrap in plastic wrap or wax paper. Chill until firm enough to slice, about 2 hours, or freeze about 1 hour."],
+          ["Step 2", "Preheat the oven to 375 degrees F (190 degrees C)."],
+          ["Step 3", "Cut roll into 1/8- to 1/4-inch slices. Arrange 2 inches apart on an ungreased baking sheet."],
+          ["Step 4", "Bake in the preheated oven until edges are firm, 7 to 8 minutes. Cool on the baking sheet on a wire rack (cookies are too delicate to remove until cooled)."],
+          ["Step 5", "Microwave semisweet chocolate and candy melts in a small bowl, stirring twice, until melted and smooth, 1 to 2 minutes."],
+          ["Step 6", "Dip each cookie into melted chocolate, allowing excess to drip off. Arrange on wax paper-lined trays. Chill until set."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/YG5Pcw0xEiMmRITHvIR8TeWT7Bg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8535773-Homemade-Thin-Mints-4x3-1-2aeed43507a64b5c8d11547151cf320a.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Erika",
+            "commentRating": 4,
+            "date": "2023-06-12",
+            "comment": "I had trouble getting my dough into a perfectly round roll, so when I cut the roll into slices, the slices were pretty oval-shaped. I also cut my slices way too thick, so the cookies didn't crunch the way the original thin mints do (that's my own fault though, not the recipe - just bear in mind that thinner is better). Flavor-wise though, they were delicious. Not quite the same as thin mints, but still very tasty in their own right. Would definitely make these again."
+          },
+          {
+            "name": "Heloiza O. L. H.",
+            "commentRating": 5,
+            "date": "2023-04-27",
+            "comment": "They were a hit! Everyone agreed that they were better than the original. They are easy to make, though the chocolate coating is a bit messy. I don't think it is necessary to pick up melting chocolates...dark chocolate or semi sweet chunks should work just as well.The first batch, I dipped the tops. The chocolate was pretty thick, so I didn't dip the bottoms. The second batch I spread the chocolate thinner with a knife, then waited for the tops to dry before turning them over to spread the bottom with melted chocolate."
+          },
+          {
+            "name": "Luis",
+            "commentRating": 4,
+            "date": "2023-03-13",
+            "comment": "It was AMAZING. It seriously tasted like heaven. Though it kind of got messy when I was dipping the cookies into the chocolate"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Crinkle Cookies",
+        "recipeRating": 5,
+        "description": "These chocolate crinkle cookies are coated in confectioners' sugar for a decadent chocolate treat. They look beautiful on Christmas cookie trays and taste so good!",
+        "author": "Ingrid",
+        "prepTime": "20 mins",
+        "cookTime": "30 mins",
+        "additionalTime": "4 hrs 10 mins",
+        "totalTime": "5 hrs",
+        "serving": 72,
+        "yield": "6 dozen",
+        "ingredients": ["2 cups white sugar", "1 cup unsweetened cocoa powder", "1/2 cup vegetable oil", "4 large eggs", "2 teaspoons vanilla extract", "2 cups all-purpose flour", "2 teaspoons baking powder", "1/2 teaspoon salt", "1/2 cup confectioners' sugar"],
+        "steps": [
+          ["Step 1", "Gather ingredients."],
+          ["Step 2", "Mix sugar, cocoa, and oil together in a medium bowl. Beat in eggs, one at a time, until combined. Stir in vanilla."],
+          ["Step 3", "Combine flour, baking powder, and salt in another bowl. Gradually stir flour mixture into the cocoa mixture until thoroughly mixed. Cover dough and refrigerate for at least 4 hours."],
+          ["Step 4", "Preheat the oven to 350 degrees F (175 degrees C). Line two cookie sheets with parchment paper. Roll or scoop chilled dough into 1-inch balls. Coat each ball in confectioners' sugar and place 1 inch apart on the prepared cookie sheets."],
+          ["Step 5", "Bake in the preheated oven for 10 to 12 minutes. Let stand on the cookie sheet for a few minutes before transferring to wire racks to cool. Repeat Step 4 to make the remaining batches."],
+          ["Step 6", "Enjoy!"]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/xG2ZWdNUuo6HlchmRtC7AnozI9M=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23028-chocolate-crinkle-cookies-DDMFS-beauty-129-e72225a7a9ad4e1e856bad4e42176eb1.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "MarMar24",
+            "commentRating": 5,
+            "date": "2022-12-21",
+            "comment": "I love these cookies! For the holidays I use 1 tsp vanilla and 1 tsp peppermint extract and it gives them such a warm minty undertone. I also add a tsp of espresso powder to punch up the chocolate. I use a rounded tsp full of batter to keep my balls consistent size. That yields about 4 doz. For those of you having an issue with it sticking to your hands, try using food prep gloves lightly sprayed with cooking spray. Works like a charm and helps make nicely rounded balls without the mess!"
+          },
+          {
+            "name": "Maida Bausas",
+            "commentRating": 4,
+            "date": "2021-12-26",
+            "comment": "I made this a lot of times! My kids loved it! Also all my cousins fight over it everytime I bring some in family get together. There's only a slight difference I made for this recipe. Instead of 2 granulated sugars. I put 1 cup brown sugar and 1 cup granulated sugar. I chill it for 1 hour and cook it for 10 mins. And it came pit perfectly! You have to use a very good cocoa powder to enjoy that chocolate flavour. I tried once a different one and it didn't taste the same. I am using the Fry's cocoa powder. Just my preference after making this for so long."
+          },
+          {
+            "name": "schlechty",
+            "commentRating": 4,
+            "date": "2021-12-26",
+            "comment": "Having made this more than once, I decided to add a tsp of espresso powder to the mix. They now taste like rich dark chocolate. Milk chocolate lovers, keep it as is. Dark chocolate lovers, add espresso powder. The batter will look thin as others have said. Promise, it sets up fine. I freeze mine which causes them not to spread and to be more fudgey on the inside."
+          },
+          {
+            "name": "Louisa Simeri (2027)",
+            "commentRating": 5,
+            "date": "2021-02-04",
+            "comment": "These were such a hit during the holidays! Delish! I did alter it slightly... I put 1 tbsp of peppermint extract and no vanilla, and put it in the fridge overnight, for extra crinkles. Loved it, totally would recommend it to friends."
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Thumbprint Cookies",
+        "recipeRating": 4,
+        "description": "These chocolate thumbprint cookies have a ganache filling that bumps up the rich chocolate flavor and adds a nice creaminess to the cookie.",
+        "author": "Anna Theoktisto",
+        "prepTime": "30 mins",
+        "cookTime": "10 mins",
+        "additionalTime": "30 mins",
+        "totalTime": "1 hr 10 mins",
+        "serving": 24,
+        "yield": "24 cookies",
+        "ingredients": ["3/4 cup unsalted butter, softened", "1 cup powdered sugar", "1 large egg", "1 teaspoon vanilla extract", "2 cups all-purpose flour", "1/4 cup unsweetened cocoa powder", "3/4 teaspoon kosher salt", "1/2 teaspoon ground cinnamon", "sanding sugar", "1/4 cup heavy whipping cream", "2 ounces semi-sweet chocolate, chopped"],
+        "steps": [
+          ["Step 1", "Preheat oven to 350 degrees F (175 degrees C). Position racks in the upper and lower thirds of oven. Line 2 baking sheets with parchment paper."],
+          ["Step 2", "Beat butter and sugar at medium speed with an electric mixer until fluffy, about 4 minutes. Add egg and vanilla, beating until incorporated."],
+          ["Step 3", "Whisk together flour, cocoa, salt, and cinnamon in a medium bowl until combined. With mixer on low speed, gradually add flour mixture to butter mixture, beating until well combined, about 2 minutes."],
+          ["Step 4", "Roll dough into 1 1/4-inch balls, then roll balls in sanding sugar. Place on the prepared baking sheets, spacing 2 inches apart. Press the center of each ball with your thumb (about 1/2-inch deep and 1/2-inch wide)."],
+          ["Step 5", "Bake in preheated oven in upper and lower thirds, 2 baking sheets at a time, rotating top to bottom and bottom to top halfway through, until cookies are set and almost firm, 8 to 10 minutes."],
+          ["Step 6", "Let cool on baking sheets, about 15 minutes. When cool, press the center of each ball with your thumb again—the indentations will have puffed in the oven."],
+          ["Step 7", "Heat cream in a small microwavable bowl on HIGH until just steaming, about 45 seconds. Remove from the heat, and add chopped chocolate. Let the mixture sit, undisturbed, for 2 minutes. Stir until melted and smooth. Let cool until slightly thickened, about 5 minutes. Place about 1 teaspoon filling in the center of each cookie. Slide the cookies into the refrigerator for about 10 minutes to set the filling. The cookies will keep for about 5 days in an airtight container at room temperature."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/DgqGP0FrcfLs_jbpsMF79LNAsQE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8508153-chocolate-thumbprint-cookies-ddmfs-1027-4x3-6afcfa725417480cb16d776d6f3b773c.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Jacob S.",
+            "commentRating": 4,
+            "date": "2024-11-30",
+            "comment": "Good recipe, took longer than expected and came out a little dry, but other than that, it was just about perfect."
+          },
+          {
+            "name": "Michelle",
+            "commentRating": 3,
+            "date": "2023-12-29",
+            "comment": "Made the recipe as is. Liked it, but as a pure chocolate cookie I didn't think it had the moistness it needed."
+          },
+          {
+            "name": "kdonahue5684",
+            "commentRating": 5,
+            "date": "2023-12-21",
+            "comment": "we all loved the taste and biting into chocolate center is amazing"
+          },
+          {
+            "name": "rachelann",
+            "commentRating": 5,
+            "date": "2023-07-03",
+            "comment": "Very fun to make and delightfully delicious! Thanks for sharing!! Will make again!"
+          }
+        ]
+      },
+      {
+        "name": "Lemon Crumb Bars",
+        "recipeRating": 5,
+        "description": "These lemon crumb bars have a buttery shortbread crust, with a tart, tangy lemon filling, and a golden crumb topping.",
+        "author": "Kim",
+        "prepTime": "15 mins",
+        "cookTime": "45 mins",
+        "additionalTime": "40 mins",
+        "totalTime": "1 hr 40 min",
+        "serving": 16,
+        "yield": "16 lemon bars",
+        "ingredients": ["3/4 cup unsalted butter, melted", "1/2 cup white sugar", "1/2 cup firmly packed light brown sugar", "3/4 teaspoon salt", "2 teaspoons vanilla extract", "2 cups all-purpose flour", "1/4 teaspoon baking powder", "3 large eggs, at room temperature, divided", "1 cup plus 2 tablespoons white sugar", "2 tablespoons cornstarch", "2 tablespoons freshly grated lemon zest", "1 pinch salt", "3 tablespoons unsalted butter, melted and cooled", "1/2 cup freshly squeezed lemon juice"],
+        "steps": [
+          ["Step 1", "Preheat the oven to 350 degrees F (180 degrees C). Line a 9x9-inch square pan with enough parchment paper to have overhang on all sides."],
+          ["Step 2", "For crust and crumb, stir together melted butter, white sugar, brown sugar, salt, and vanilla until thoroughly combined. Add in flour and baking powder and mix until mixture comes together in large clumps. Measure out a loosely-packed 1 3/4 cups crumbs and press firmly and evenly into the bottom of prepared pan. Reserve remaining crumb mixture for topping."],
+          ["Step 3", "Break an egg into a large bowl and whisk for a few seconds. Lightly brush a thin layer of egg over the crust; you will use any egg left in the filling. Place crust into the freezer for about 10 to 15 minutes while you prepare filling."],
+          ["Step 4", "For filling, to the egg you used as egg wash, add the remaining 2 eggs, 1 cup plus 2 tablespoons sugar, cornstarch, lemon zest, and pinch salt. Whisk until completely smooth and combined. Whisk in the 3 tablespoons melted butter until incorporated. Pour in lemon juice and whisk until combined."],
+          ["Step 5", "Remove crust from freezer and pour the filling evenly over the top."],
+          ["Step 6", "Bake bars in the preheated oven for 25 minutes."],
+          ["Step 7", "Remove pan from oven and sprinkle reserved crumb topping evenly over the top, breaking up any larger crumbs as needed. Return pan to the oven."],
+          ["Step 8", "Bake until crumbs just begin to turn golden, 20 to 25 minutes more. Allow bars to cool completely, about 30 minutes, before cutting and serving."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/tDOoPVo-H0jjYcARRlSUjSZFm0o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8781116_Lemon-Crumb-Bars_Kim-Shupe_4x3-f0343cf14da546dc80337958aa309372.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Libby Carlson",
+            "commentRating": 5,
+            "date": "2025-02-06",
+            "comment": "A keeper!"
+          },
+          {
+            "name": "Savannah",
+            "commentRating": 5,
+            "date": "2025-02-03",
+            "comment": "Family favorite"
+          },
+          {
+            "name": "Waldemar Luiz",
+            "commentRating": 5,
+            "date": "2025-02-03",
+            "comment": "I love this recipe. The only thing I add is the fresh zest of the lemon skin from Meyer's lemons because we are a texture family. I am definitely making this for the women at my church group for Mother's Day. You can also add a different dimension with calamansi limes as part of the juice."
+          }
+        ]
+      },
+      {
+        "name": "Blackout Cake",
+        "recipeRating": 4,
+        "description": "Blackout cake is a moist and tender cake with deep cocoa flavor. Layers of chocolate cake are filled with light and airy chocolate pudding, then all of this goodness is enrobed in a rich chocolate ganache. This is a dream dessert: chocolate on chocolate on chocolate.",
+        "author": "Amanda Holstein",
+        "prepTime": "40 mins",
+        "cookTime": "20 mins",
+        "additionalTime": "1 hr 15 mins",
+        "totalTime": "2 hrs 15 mins",
+        "serving": 12,
+        "yield": null,
+        "ingredients": ["cooking spray", "2 1/4 cups all-purpose flour", "1 3/4 cups white sugar", "1 cup unsweetened cocoa", "2 teaspoons baking powder", "1 teaspoon baking soda", "3/4 teaspoon kosher salt", "1 cup whole buttermilk, at room temperature", "3/4 cup canola oil", "3 large eggs, at room temperature", "1 tablespoon vanilla extract", "1/2 cup hot strong brewed coffee", "1 (3.9-ounce) package chocolate instant pudding and pie filling (such as Jell-O®)", "2 1/2 cups heavy cream", "2 cups semisweet chocolate chips", "3/4 cup unsalted butter, cut into pieces", "1/2 cup heavy whipping cream", "1 tablespoon vanilla extract", "1/2 teaspoon kosher salt"],
+        "steps": [
+          ["Step 1", "Gather all ingredients."],
+          ["Step 2", "For the cake, preheat the oven to 350 degrees F (180 degrees C). Coat 3 (9-inch) round cake pans with cooking spray; line bottoms of each cake pan with parchment paper, and spray parchment lightly with cooking spray. Set aside."],
+          ["Step 3", "Whisk together flour, sugar, cocoa, baking powder, baking soda, and salt together in a large bowl until no lumps remain."],
+          ["Step 4", "Combine buttermilk, canola oil, eggs, and vanilla in the bowl of a stand mixer fitted with a whisk attachment. Beat on medium-low speed until combined, about 30 seconds. Reduce speed to low, and gradually beat in flour mixture until just combined, 1 to 2 minutes, stopping to scrape down sides of bowl as needed. With mixer on low speed, slowly stream in hot coffee, beating until just incorporated, about 1 minute. Divide batter evenly among the prepared cake pans, about 2 cups each."],
+          ["Step 5", "Bake in the preheated oven until a wooden pick inserted in the center comes out with a few moist crumbs, about 18 minutes. Let cakes cool completely in cake pans on a wire rack, about 45 minutes."],
+          ["Step 6", "While cake cools, prepare filling: Whisk together pudding mix and heavy cream until mostly smooth and slightly thickened, about 2 minutes. Chill, covered, until fully set, about 30 minutes."],
+          ["Step 7", "Meanwhile, prepare frosting: Microwave chocolate chips, butter, and heavy cream in a large microwave-safe bowl on High in 30-second intervals, stirring thoroughly between intervals, until smooth and melted, about 1 minute 30 seconds to 2 minutes. Chill, covered, until partially set but spreadable, 25 to 30 minutes."],
+          ["Step 8", "To assemble, remove cooled cakes from cake pans, and discard parchment paper. Slightly trim tops of each cake layer to create a flat surface, and transfer trimmings to a large bowl. Using your hands, break up cake trimmings into fine crumbs, and set them aside (you should have at least 1 1/2 cups crumbs). Place 1 trimmed cake layer, top side up, on a plate or cake stand. "],
+          ["Step 9", "Remove set filling from the refrigerator, and whisk lightly until completely smooth and slightly loosened. Top cake layer with half (about 1 1/2 cups) of filling; spread to edges of cake in an even layer using an offset spatula. Top with second cake layer, top side down, and repeat the process with remaining filling. Top with third cake layer, top side down. "],
+          ["Step 10", "Stir chilled frosting until smooth. Using a large offset spatula, spread frosting evenly over the top and sides of the cake."],
+          ["Step 11", "Gently press reserved cake crumbs evenly over into frosting, covering the top and sides completely. Discard any remaining crumbs. Slice and serve!"]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/sDg2eF2vYna8511WszSPh-lqMbg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8762039-Blackout-cake-ddmfs-3324-4x3-beauty-3f5b9066db1b4ad3be33d3cfc13e39a9.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "gayle",
+            "commentRating": 3,
+            "date": "2025-02-08",
+            "comment": "Is there not any powdered sugar in the icing?"
+          }
+        ]
+      },
+      {
+        "name": "Vanilla Frozen Yogurt",
+        "recipeRating": 4.5,
+        "description": "This frozen yogurt recipe is so much easier than homemade ice cream. Just so you know, this freezes a lot quicker than ice cream. Also, if you want tart frozen yogurt, feel free to decrease the sugar.",
+        "author": "TeenChef14",
+        "prepTime": "5 mins",
+        "cookTime": null,
+        "additionalTime": "3 hrs 15 mins",
+        "totalTime": "3 hrs 20 mins",
+        "serving": 0,
+        "yield": "3 cups",
+        "ingredients": ["3 cups nonfat Greek yougurt", "2/3 cup white sugar", "1 teaspoon vanilla extract"],
+        "steps": [
+          ["Step 1", "Stir together yogurt, sugar, and vanilla in a bowl until sugar is dissolved. Cover and refrigerate for 1 hour."],
+          ["Step 2", "Pour chilled mixture into an ice cream maker and freeze according to the manufacturer's directions until it reaches \"soft-serve\" consistency."],
+          ["Step 3", "Transfer to a 1- or 2-quart plastic container with a lid; cover surface with plastic wrap and seal. Allow frozen yogurt to ripen in the freezer for at least 2 hours or overnight."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/XXXrhKInRtkQ2EdErcL9uQ3PLRg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/214953-Vanilla-Frozen-Yogurt-ddmfs-4x3-2-2733-3aa02fbaca8d489db9ac0b3d1c607441.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "cooking monkey",
+            "commentRating": 5,
+            "date": "2020-05-13",
+            "comment": "ok so I loved it. It is awesome and simple. Since I didn't have an Ice Cream maker I just mixed it for 5 min. every hour till it was done. I even shredded some dark chocolate on he top to make it look fancy. I hope you'll try it too!"
+          },
+          {
+            "name": "Sarah Caltvedt",
+            "commentRating": 4,
+            "date": "2014-01-11",
+            "comment": "I used 1/4 cup of light sugar (Dominos sugar and stevia mix). Also added 2T of vodka to prevent freezing too hard. It came out nice and tart, almost as good as Trader Joe's plain frozen yogurt. I used a Cuisinart ice cream maker, and it was ready much faster than regular ice cream."
+          },
+          {
+            "name": "lila sanders",
+            "commentRating": 5,
+            "date": "2021-01-06",
+            "comment": "I have a mini ice cream maker and I used a 5.3 oz serving of Greek coconut yogurt, a 1/4 cup coconut milk and 1/2 TBS flavored vodka. It turned out very well. I love my mini ice cream freezer. I can make frozen yogurt every day!"
+          },
+          {
+            "name": "Mary Elizabeth",
+            "commentRating": 5,
+            "date": "2013-05-22",
+            "comment": "I make mine with honey instead of sugar. You can't tell a difference in the taste, and it ends up with this beautiful, golden tint to it. You don't have to have an ice-cream maker. Just stir it up well and freeze overnight. I like to satisfy my sweet tooth with this easy, healthy treat! Yum!"
+          }
+        ]
+      },
+      {
+        "name": "Strawberry Vanilla Pancakes",
+        "recipeRating": 4.5,
+        "description": "These strawberry pancakes are light, fluffy, and packed with strawberry and vanilla flavor. This breakfast seems like dessert! Serve with butter and real maple syrup.",
+        "author": "Kristi",
+        "prepTime": "10 mins",
+        "cookTime": "10 mins",
+        "additionalTime": null,
+        "totalTime": "20 mins",
+        "serving": 4,
+        "yield": "8 pancakes",
+        "ingredients": ["1 cup all-purpose flour", "2 tablespoons brown sugar", "2 teaspoons baking powder", "1/4 teaspoon salt, or to taste", "1 cup milk", "1 large egg", "2 tablespoons vegetable oil", "2 tablespoons vanilla extract", "1 cup chopped fresh strawberries"],
+        "steps": [
+          ["Step 1", "Stir flour, brown sugar, baking powder, and salt together in a medium bowl. Pour in milk, egg, oil, and vanilla; mix until well blended. Stir in strawberries."],
+          ["Step 2", "Grease and heat a large skillet or griddle over medium heat."],
+          ["Step 3", "Drop batter by large spoonfuls onto the griddle and cook until bubbles form and the edges are dry, 2 to 3 minutes. Flip and cook until browned on the other side, about 2 minutes more. Repeat with remaining batter."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/8GG3zmfU07O8yJj1EW8ruIUkg9E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/822812-strawberry-vanilla-pancakes-lutzflcat-4x3-1-e910c7b0b24f4a8f88ae3c0438256f97.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Bonnie Stucki",
+            "commentRating": 4,
+            "date": "2023-02-09",
+            "comment": "These pancakes do taste delicious, I felt like several changes were needed though. For dietary reasons I used half oat flour, I cut down the sugar to 1 Tbsp - sugar in pancakes is mostly for color so you don't need much, I used about 3/4 cup milk in part because I was using frozen strawberries, and didn't want to add too much liquid. I defrosted 1 cup of strawberries, and mashed them. I also cut the vanilla down to 2 tsp, and it still tasted distinctly of vanilla. The batter was still pretty thin - on the thinner side of normal pancake batter, but as promised, they puffed up nicely when cooked, after letting the batter sit for a few minutes."
+          },
+          {
+            "name": "Olive Fairy",
+            "commentRating": 5,
+            "date": "2015-10-20",
+            "comment": "These were so moist and fluffy-- really beautiful texture. You couldn't ask for more moist pancakes! I upped the brown sugar to 3T and dropped the vanilla a bit to 1.5T, and sifted the flour. I didn't find the batter to be extremely runny, like some other reviewers, but letting it sit for a few minutes before adding to the pan is crucial. Also, I chopped up the strawberries and let them sit on a paper towel, to let any excess liquid soak off, until I was just about ready to use the batter, and then mixed them in. Try these-- you won't regret it! Thanks for a great pancake recipe! =)"
+          },
+          {
+            "name": "MARLASTUFF96",
+            "commentRating": 4,
+            "date": "2013-07-20",
+            "comment": "My daughter does not like chunks of fruit in her food, so we liquified the strawberries in a blender. I gave it four stars because we had to tweak a lot of things-we added more sugar, had to slowly add the vanilla (2 Tablespoons seemed like too much-we added 2.5 teaspoons). We will make this again!"
+          },
+          {
+            "name": "wenhuey",
+            "commentRating": 5,
+            "date": "2018-10-28",
+            "comment": "I used only half the amount of salt, brown sugar and vanilla extract. Turned out great and it wasn’t runny at all!"
+          }
+        ]
+      }
+    ],
+    "snacks": [
+      {
+        "name": "Bacon and Date Appetizer",
+        "recipeRating": 4.5,
+        "description": "An easy, quick appetizer that I first tasted at a Native American wedding ceremony. Dates are stuffed with almonds and wrapped in bacon!",
+        "author": "CINNTX",
+        "prepTime": "30 mins",
+        "cookTime": "5 mins",
+        "additionalTime": null,
+        "totalTime": "35 mins",
+        "serving": 6,
+        "yield": "6 servings",
+        "ingredients": ["1 (8 ounce) package pitted dates", "4 ounces almods", "1 pound sliced bacon"],
+        "steps": [
+          ["Step 1", "Preheat the broiler."],
+          ["Step 2", "Slit dates. Place one almond inside each date. Wrap dates with bacon, using toothpicks to hold them together."],
+          ["Step 3", "Broil 10 minutes, or until bacon is evenly brown and crisp."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/14jt4hwk5povnJzTjBwSMnsxvME=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/695887-8c08b2f237314d508b27745bcd458fdb.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "ahbarnettsbcglobalnet",
+            "commentRating": 5,
+            "date": "2024-03-21",
+            "comment": "I love them - but I usually stuff with a cheese filling rather than nut. Delish either way. If you like the bacon better done, easy enough to cook it about half way in a sheet pan first. Then cut it into 3rds and wrap around the dates. Date and filling get plenty cooked enough by the time the bacon is done - and I too bake at 400 not broil."
+          },          {
+            "name": "Ashley Waller",
+            "commentRating": 4,
+            "date": "2015-10-26",
+            "comment": "I made these following other reviewers suggestions to bake at 400 for a little longer rather than broiling them. I stuffed mine with Gorgonzola cheese rather than an almond and they were really good! I placed mine on a rack inside a roasting pan and lined the pan with foil to make cleanup easier. Will definitely make these again!"
+          },
+          {
+            "name": "KTrout",
+            "commentRating": 5,
+            "date": "2015-01-01",
+            "comment": "Followed the 400 degrees for 20 minutes as suggested by others and then broiled for the last 5 to 10 - depending on how you like the bacon (crispier or softer). Used sliced almonds. Sauteed the almonds in a frying pan with butter, brown sugar, garlic powder and salt. Then stuffed them in the dates and wrapped with the bacon. If you wrap tight enough and place properly you don't need the toothpicks."
+          },          {
+            "name": "Chucker999",
+            "commentRating": 5,
+            "date": "2021-08-27",
+            "comment": "I actually make these with chorizo sausage diced and fried with chopped cilantro for about five minutes. I fill the dates with this mixture, wrap with bacon and bake at 375 for twenty minutes or until the bacon is crisp!"
+          }
+        ]
+      },
+      {
+        "name": "Coconut Shrimp",
+        "recipeRating": 5,
+        "description": "These coconut shrimp are rolled in a coconut beer batter before frying. Serve warm with your favorite dipping sauce — I use orange marmalade, mustard, and horseradish mixed to taste for a dipping sauce.",
+        "author": "LINDAV10",
+        "prepTime": "15 mins",
+        "cookTime": "10 mins",
+        "additionalTime": "30 mins",
+        "totalTime": "55 mins",
+        "serving": 6,
+        "yield": "24 coconut shrimp",
+        "ingredients": ["3/4 cup all-purpose flour, divided", "2/3 cup beer", "1 large egg", "1 1/2 teaspoons baking powder", "2 cups flaked coconut", "24 medium raw shrimp, shelled, deveined, with tails attached", "3 cups oil for frying"],
+        "steps": [
+          ["Step 1", "Line a baking sheet with wax paper; set aside."],
+          ["Step 2", "Whisk together 1/2 cup flour, beer, egg, and baking powder in a medium bowl until smooth. Place coconut and remaining 1/4 cup flour in 2 separate bowls."],
+          ["Step 3", "One at a time, hold shrimp by the tail and dredge in flour, shaking off excess. Dip in beer batter; allow excess to drip off. Roll in coconut, then place on the prepared baking sheet. Refrigerate for 30 minutes."],
+          ["Step 4", "Heat oil in a deep fryer or large skillet to 350 degrees F (175 degrees C)."],
+          ["Step 5", "Working in batches, fry shrimp in hot oil, turning once, until golden brown, 2 to 3 minutes. Use tongs to remove shrimp to paper towels to drain."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/qkk1jBOd80syrt-Di5eSAZf0F5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3494547-coconut-shrimp-i-jenniwun-1x1-1-10dc2599b63547f0a6072adf1e09475a.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Christine A",
+            "commentRating": 5,
+            "date": "2020-11-10",
+            "comment": "This is the 2nd time I made it, and it's awesome! I did not fry it in oil: instead I baked it at 475 degrees for about 15-20 min. on a silicone mat lined-baking sheet, sprayed with Pam. Also sprayed the top sides of the shrimp and watched til the coated tops (and bottoms) turned golden brown. Used Bob's Red Mill organic shredded coconut as opposed to store-brand this time - it's a finer shred and coated better than the typical larger shred. Used the recipe as written otherwise, but this 2nd time I completely forgot about the orange marmalade dipping sauce that's noted in the recipe description at the very top of the page! Don't forget that dip - it really makes it taste exactly like you're dining in the Outback!"
+          },          
+          {
+            "name": "Yam",
+            "commentRating": 4,
+            "date": "2019-03-26",
+            "comment": "Followed the direction with the following modifications : no beer used Fresca!! worked fine. Also seasoned the bland flour to have layers of flavor, used shredded coconut not flakes, seasoned shrimp, batters, flour to have layers of flavor.. did chill. Used an Airfyer so I sprayed lightly with Pam and cooked for 12 min. Very easy and yummy."
+          },
+          {
+            "name": "Maria",
+            "commentRating": 5,
+            "date": "2023-02-13",
+            "comment": "These shrimps were delicious. I did add seasoning to the flour as another person suggested plus I put the coconut flakes in the processor for a few seconds and kept them in the fridge for several hours. I also made the orange marmalade with mustard and horse radish dipping sauce as someone suggested. They were excellent. Will now have to make them again for my kids. Thank you for sharing."
+          },          
+          {
+            "name": "Maryflower",
+            "commentRating": 5,
+            "date": "2020-09-07",
+            "comment": "Yummy! I served it with a sweet and sour sauce made of 1/4 cup sugar, 1/4 apple cider vinegar, 1/4 cup ketchup, 1/4 water. Bring it to a boil and serve with the shrimp."
+          }
+        ]
+      },
+      {
+        "name": "Bacon Cheddar Deviled Eggs",
+        "recipeRating": 4.5,
+        "description": "These bacon deviled eggs with shredded Cheddar cheese are a tasty option for Easter or any get-together.",
+        "author": "USEREMILY3260",
+        "prepTime": "25 mins",
+        "cookTime": "15 mins",
+        "additionalTime": null,
+        "totalTime": "40 mins",
+        "serving": 12,
+        "yield": "24 deviled eggs",
+        "ingredients": ["12 large eggs", "4 slices bacon", "1/2 cup mayonnaise", "2 tablespoons finely shredded Cheddar cheese", "1 tablespoon mustard"],
+        "steps": [
+          ["Step 1", "Place eggs in a saucepan and cover with cold water. Bring water to a boil, then immediately remove from the heat. Cover the pan and let eggs stand in hot water for 10 to 12 minutes."],
+          ["Step 2", "Remove eggs from the hot water and rinse under cold running water to cool."],
+          ["Step 3", "While the eggs are standing in hot water, cook bacon in a large skillet over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain on paper towels, then crumble."],
+          ["Step 4", "Peel cooled eggs and cut in half lengthwise. Transfer yolks to a bowl."],
+          ["Step 5", "Add mayonnaise, bacon, Cheddar, and mustard to yolks, then mash to combine. Spoon egg yolk mixture into egg white halves. Serve immediately or cover and refrigerate until ready to serve."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/O9P17vDRFHdyvz2EcIjfMzYgVWQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bacon-cheddar-deviled-eggs-photo-by-allrecipes-magazine-7618847-cropped-2000-93788e503a894401a8e772ebcdea8a62.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Jenifer Stewart",
+            "commentRating": 5,
+            "date": "2023-02-13",
+            "comment": "Made it last night for the Super Bowl! They were delicious! I added about 2 teaspoons of Frank's to give it a little kick and some pepper. Topped it off with paprika. They didn't need any salt since there was a good amount of bacon. I will definitely make them again!"
+          },          {
+            "name": "Lori A",
+            "commentRating": 5,
+            "date": "2019-05-06",
+            "comment": "Delicious! I used a quart size freezer bag to mash the 9 egg yolks (a sandwich bag is too weak and broke the last time); then I added finely shredded sharp cheddar cheese and 4 slices of turkey bacon bits (equal to approximately 1/4 cup); I added the mustard to the light Duke's mayo then add to the yolk/cheese/bacon mixture. I sprinkled extra bacon bits on top. I have made it without the cheese and was asked to never omit it again. This is definitely a favorite! I have found Oscar Meyer turkey bacon and light Duke's mayo taste the best together."
+          },
+          {
+            "name": "SCATNEY",
+            "commentRating": 5,
+            "date": "2020-01-05",
+            "comment": "Delicious!! Made these for a family get together and they were a huge hit! My hard to please step mother even loved them. Love that this is so simple! I used avocado oil mayonnaise, Dijon mustard, and blended with in immersion blender. The texture was perfect. Then stirred in the crumbled bacon. Spooned the filling into the egg whites and sprinkled with Smoked Paprika, best deviled eggs ever!!"
+          },          
+          {
+            "name": "evandiver",
+            "commentRating": 5,
+            "date": "2023-12-04",
+            "comment": "They were good... I modified it a little though. The cheese and the bacon I put in a food processor to finely chop it. I also topped them with a crispy piece of bacon just for decorative measures.My next time making them, I’m going to try to find a sweet/spicy bacon to use."
+          }
+        ]
+      },
+      {
+        "name": "Baked Potato Dip II",
+        "recipeRating": 4.5,
+        "description": "Excellent dip that combines everything you'd like on a baked potato and then some!",
+        "author": "Luanne A",
+        "prepTime": "10 mins",
+        "cookTime": null,
+        "additionalTime": "8 hrs",
+        "totalTime": "8 hrs 10 mins",
+        "serving": 16,
+        "yield": "16 servings",
+        "ingredients": ["1 (8 ounce) package cream cheese, softened", "1 (8 ounce) container sour cream", "1 (1 ounce) package ranch dressing mix", "3 green onions, thinly sliced", "1 cup shredded Cheddar cheese", "2/3 (3 ounce) can real bacon bits"],
+        "steps": [
+          ["Step 1", "Whisk together the cream cheese, sour cream, and ranch dressing mix in a large bowl until smooth. Stir in green onions, Cheddar cheese, and bacon bits. Cover and refrigerate overnight before serving."]
+        ],
+        "imgURL": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F10%2F19%2F699137-baked-potato-dip-ii-footballgrl16-4x3-1.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "jammie dodson",
+            "commentRating": 4,
+            "date": "2023-10-10",
+            "comment": "We make this dip all the time but we mix everything together except the cheddar cheese. Smooth mixture in a 8x8 baking dish, sprinkle the cheddar on top, & back at 350* till the cheese is melted & bubbly. Serve it warm with corn chips. Soooo yummy!"
+          },          
+          {
+            "name": "Alison Anderson",
+            "commentRating": 5,
+            "date": "2016-09-17",
+            "comment": "After reading some of the other reviews I made some changes. I doubled the recipe and added an extra brick of cream cheese and real bacon. I also added some fresh minced garlic and seasoned salt. I wasn't able to make it the night ahead, but did let it set in fridge about 30 min before serving. My guests loved it! Served it with baked potatoes, grilled steaks and grilled mushrooms/onions. It's great as a topping on the steak too; that's how I was eating leftovers!! Will definitely make again."
+          },
+          {
+            "name": "Clare Turley",
+            "commentRating": 4,
+            "date": "2023-10-13",
+            "comment": "Followed the recipe to a T and it was WAY too salty and too thick, like other comments said. 3-4/5 stars.Use half the cream cheese and half the ranch mix and it was perfect! Still thick but easier to scoop onto chips with a spoon."
+          },          {
+            "name": "Bethany",
+            "commentRating": 5,
+            "date": "2014-03-31",
+            "comment": "I didn't have ranch seasoning so I did half the amount of sour cream plus ranch dressing. Threw it all in a crock pot and served warm right away. Very good with tortilla chips."
+          }
+        ]
+      },
+      {
+        "name": "Mini Southwestern Corn Pup Muffins with Fiesta Dipping Sauce",
+        "recipeRating": 4,
+        "description": "This recipe is a great alternative to the fried corn dogs, and they taste just as good. Serve with the Fiesta Dipping Sauce recipe provided, or use your favorite corn dog condiments.",
+        "author": "Athena",
+        "prepTime": "15 mins",
+        "cookTime": "10 mins",
+        "additionalTime": null,
+        "totalTime": "25 mins",
+        "serving": 12,
+        "yield": "24 muffins",
+        "ingredients": ["3/4 cup yellow cornmeal", "1 cup all-purpose flour", "1/3 cup white sugar", "1 tablespoon baking powder", "1/2 teaspoon salt", "1 teaspoon chili powder", "1 teaspoon ground cumin", "1 teaspoon garlic powder", "1 cup milk", "1 egg, beaten", "2 tablespoons canola oil", "1/3 cup shredded Monterey Jack cheese", "4 hot dogs, cut into 1 inch pieces", "1/2 cup sour cream", "1/2 cup mayonnaise", "1 1/2 tablespoons dry taco seasoning mix"],
+        "steps": [
+          ["Step 1", "Preheat the oven to 400 degrees F (200 degrees C). Coat two 12 cup muffin tins with nonstick cooking spray or line with paper liners."],
+          ["Step 2", "In a large bowl, stir together the cornmeal, flour, sugar, baking powder, salt, chili powder, cumin and garlic powder. Make a well in the center and pour in the milk, egg and oil. Stir until well blended, then gently stir in the cheese. Drop a smal spoonful of the batter into the bottom of each muffin cup. Place a piece of hot dog on top of this batter. Fill cups with enough additional batter to cover the hot dog pieces."],
+          ["Step 3", "Bake for 10 to 12 minutes in the preheated oven, or until muffins are lightly browned and spring back when lightly pressed. Cool slightly before removing from the muffin pans. Serve warm with the Fiesta Dipping Sauce."],
+          ["Step 4", "To make the Fiesta Dipping Sauce, whisk together the sour cream, mayonnaise and taco seasoning mix until smooth. Serve immediately."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/N9lXDpniEa5zZKzSNAJkA8JNbuc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7649319-c6573be03bf249c8a66a53a4262c8bad.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "jenjunum",
+            "commentRating": 4,
+            "date": "2012-01-16",
+            "comment": "I used a \"flax egg\" instead of a regular egg since I was out (1 T ground flax seed & 1 T water) and less sugar than called for (~1//4 cup). It still turned out great and my kids liked them. I found the mini muffin tins took 10 minutes to cook and the regular muffin tins took almost 15. We just dipped ours in ketchup."
+          },          
+          {
+            "name": "Sarah Dipity",
+            "commentRating": 5,
+            "date": "2008-08-05",
+            "comment": "I truly have a special place in my heart for corndogs. These little guys are FANTASTIC!! I used 3 veggie hotdogs for 24 mini muffins. I cut each hotdog into 8 equal pieces. Using a small cookie scoop, I put a full scoop into each well of my silicone mini muffin pan, placed a hotdog chunk into each one, and topped them off with about 1 teaspoon of batter. I added 2 teaspoons of sugar to the dipping sauce, decreased the taco seasoning to 1 tablespoon, and added 1 tablespoon of milk to make it taste like Taco Bell's Santa Fe sauce (the sauce they so cruelly discontinued!). SO GOOD!!!"
+          },
+          {
+            "name": "DIZ&#9829;",
+            "commentRating": 5,
+            "date": "2011-04-18",
+            "comment": "What an excellent way to use up some unwanted hot dogs. I made these into 12 regular muffins, chopped the hotdogs into pieces and used pepperjack cheese for some added kick. I doubled the cheese, but also used a course grate. Hubby liked them topped with mustard and I thought they were great plain."
+          },          
+          {
+            "name": "ResearchMom",
+            "commentRating": 5,
+            "date": "2013-10-19",
+            "comment": "So yummy! The spice was mild enough for my kids, and they thought they were fantastic. I used a mini-muffin pan as well (they baked up in 7 minutes). I stuck lollipop sticks from the craft store in them per my 6 yr old request, \"to make them like a real corn dog\". I didn't make the sauce, as the kiddos just wanted to dip it in ketchup. Definitely going in circulation. Thanks for the lovely recipe!"
+          }
+        ]
+      },
+      {
+        "name": "Coxinhas (Brazilian Chicken Croquettes)",
+        "recipeRating": 4,
+        "description": "This coxinha recipe is a popular snack in Brazil. They are chicken croquettes and make great finger food for parties, and children are sure to love them too.",
+        "author": "Sarinha",
+        "prepTime": "1 hr",
+        "cookTime": " 1 hr",
+        "additionalTime": null,
+        "totalTime": "2 hrs",
+        "serving": 10,
+        "yield": "20 coxinhas",
+        "ingredients": ["2 small skinless, boneless chicken breast halves", "1 cup chicken broth, or more as needed", "1 tablespoon olive oil", "1 onion, chopped", "5 chopped green olives, or to taste", "2 tablespoons chopped fresh parsley", "salt and pepper to taste", "2 cups chicken broth", "2 tablespoons butter", "salt to taste", "2 cups all-purpose flour", "1 cup all-purpose flour", "2 eggs, beaten", "1 cup dry bread crumbs", "oil for frying"],
+        "steps": [
+          ["Step 1", "Combine chicken breasts and 1 cup chicken broth in a pot over medium heat. Bring to a boil, reduce heat, cover, and simmer until chicken is cooked through, 20 to 30 minutes. Keep checking that there is enough liquid in the pot and add more broth if necessary. Remove chicken from pot, allow to cool briefly, and shred with 2 forks."],
+          ["Step 2", "Heat olive oil in a skillet over medium heat and cook onion until soft and translucent, about 5 minutes. Add shredded chicken, olives, and parsley. Stir well and season with salt and pepper. Remove filling from heat and set aside."],
+          ["Step 3", "Heat 2 cups chicken broth and butter in a large saucepan over medium heat; season with salt and bring to a simmer. Add flour all at once and stir to form a thick paste. Stir vigorously until mixture is smooth and no longer sticks to the bottom of the pan. Remove from heat and let pastry cool."],
+          ["Step 4", "Once pastry is cool enough to handle, transfer to an oiled work surface and knead until smooth, 2 to 3 minutes."],
+          ["Step 5", "Take a portion of pastry and roll into a golf ball-sized ball. Stick an oiled finger into the center of the ball and press edges to create a small bowl. Stuff with 2 teaspoons chicken filling and gather top edges to seal, rolling into a teardrop shape. Set croquette aside and cover with a damp towel. Repeat with remaining pastry and filling."],
+          ["Step 6", "Set out 3 bowls in the following order: flour, beaten eggs, bread crumbs. Roll each croquette in flour, then dip in egg, then cover in breadcrumbs."],
+          ["Step 7", "Heat oil for frying in a large saucepan or deep fryer to 350 degrees F (175 degrees C). Fry croquettes in batches, until golden brown on all sides, 7 to 10 minutes. Remove from oil and drain on paper towels."]
+        ],
+        "imgURL": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5472349.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "KMKeller",
+            "commentRating": 3,
+            "date": "2022-01-25",
+            "comment": "The recipe is incorrect in that it calls for 1 cup of all purpose flour, when it should be 2. It's correct in the video, but I didn't figure that out until I had dumped two attempts before adding the second cup for the third... The dough will dry out very quickly so keep it covered with a damp towel for the duration once you've cooled it enough to knead. The chicken was fairly bland and I plan to add something to it to kick it up next time."
+          },          {
+            "name": "Meeks",
+            "commentRating": 3,
+            "date": "2020-11-17",
+            "comment": "Need 2 cups flour for the pastry."
+          },
+          {
+            "name": "BaDad",
+            "commentRating": 5,
+            "date": "2020-09-13",
+            "comment": "Gave them a four star because the taste is awesome. However, not sure if I did something wrong but, after my dough cooled it was still very very sticky. Couldn't work with it like in the video. Did not have anymore chicken broth so I added enough flour to make it workable. When I tried to make the bowls with the dough, that was a disaster as well...so, I mixed the dough and chicken together, used an ice cream scoop to make the balls and finished with egg and breadcrumbs. Air fried them and they were Delicious. Just like Banquet used to make in the 70's. Added cream of chicken soup with half a can of milk as gravy."
+          }
+        ]
+      },
+      {
+        "name": "Brazilian Cheese Bread (Pão de Queijo)",
+        "recipeRating": 4,
+        "description": "Pao de queijo are yummy gluten-free, wheat-free breads that are good for those with celiac disease or gluten intolerance. Serve them plain or with marinara sauce. For more variety, try adding an herb seasonings, such as Italian seasoning, or try substituting other cheeses for the Parmesan.",
+        "author": "GLOJAO",
+        "prepTime": "10 mins",
+        "cookTime": "20 mins",
+        "additionalTime": "10 mins",
+        "totalTime": "40 mins",
+        "serving": 6,
+        "yield": "6 breads",
+        "ingredients": ["1/2 cup olive oil or butter", "1/3 cup water", "1/3 cup milk or soy milk", "1 teaspoon salt", "2 cups tapioca flour", "2 teaspoons minced garlic", "2/3 cup freshly grated Parmesan cheese", "2 beaten eggs"],
+        "steps": [
+          ["Step 1", "Preheat the oven to 375 degrees F (190 degrees C). Combine olive oil, water, milk, and salt in a large saucepan and place over high heat."],
+          ["Step 2", "Bring to a boil and immediately remove from the heat."],
+          ["Step 3", "Stir in tapioca flour and garlic, stirring until smooth. Set aside to rest for 10 to 15 minutes."],
+          ["Step 4", "Stir cheese and eggs into tapioca mixture until combined; the dough will be chunky, like cottage cheese."],
+          ["Step 5", "Drop dough by 1/4 cup-size balls onto an ungreased baking sheet."],
+          ["Step 6", "Bake in the preheated oven until the tops are lightly browned, 15 to 20 minutes."],
+          ["Step 7", "Serve and enjoy!"]
+        ],
+        "imgURL": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F121e1200bee6100c2797b542862f945a%2F1670970508570image.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "luv2cook",
+            "commentRating": 4,
+            "date": "2008-07-18",
+            "comment": "I lived in Brazil, in the state that made this bread famous, for almost 5 years. I was so excited when I read the \"bad\" review that the bread was \"rubbery.\" That is exactly the way it's supposed to be! Yeah! I did take out the garlic as that's not a normal thing for this bread, and I switched the ratio of water and oil as there was WAY too much oil in it. Overall, was great to find this recipe. My husband loves it and it helps with the home sickness!"
+          },          
+          {
+            "name": "Lasagna-Yummy",
+            "commentRating": 5,
+            "date": "2019-03-29",
+            "comment": "I add a 1/2 cup of cheese. 1/3 grated parmesan and the rest with either fresh or shredded mozzarella, depends on my cheese budget. If you can afford it, choose fresh cheese! Also, I only use 1 large egg. I like to cover cookie sheet with aluminum foil and baste it with butter to make it really nonstick, then after I take it out of the oven and baste the little bread balls with butter while it's still hot. LOVE these heavenly breads so much!"
+          },
+          {
+            "name": "ellieandolive",
+            "commentRating": 5,
+            "date": "2023-07-07",
+            "comment": "I have missionary friends that say this is such a treat, and we visited a Brazilian all you can eat meats restaurant in Louisville and they served these as an appetizer. They were so good!That said, I made them like this:Doubled the recipe to make 24 'cupcakes'.Baked at 375 convection for 22 minutes. They were SOOOO GREAT. Just like I remembered them. Super gummy inside (which I'm told is authentic) and they puffed up well at the end. I'd serve and eat ASAP, as they colapse slightly as they cool. Didn't affect flavor/ texture though.I used butter and reduced the amount slightly per other reviews, had to add more milk than called for as it was too dry initially. Another 1/3 cup which I quickly microwaved to boiling and tossed in. Mixing it was a bear. When the eggs (needed 5 large for a double recipe) and cheese was added I gave up and whisked it in my stand mixer. It was well incorporated and I dolloped them into silicone muffin trays. No spray needed.Super goopy and sticky and messy but I used my fingers which was dumb. Got them all in it eventually. They turned out perfectly though!"
+          },          
+          {
+            "name": "Tai",
+            "commentRating": 4,
+            "date": "2021-02-27",
+            "comment": "CRITICAL STEP OR YOU'LL END UP WITH CHEESE SOUP! Add liquid to flour just after it has boiled, and it's still super hot. I've made this recipe several times, and just made it with a liquid mixture that wasn't boiling hot and it came out very very liquidy. First time it failed for me. Also, I use 1/3 cup butter, 1/2 cup water, no garlic, and 1 cup parmesan."
+          }
+        ]
+      },
+      {
+        "name": "Brigadeiro",
+        "recipeRating": 4,
+        "description": "Brigadeiro is a great Brazilian dessert similar to bonbons that's extremely scrumptious and delicious. This sweet is loved here in Brazil. Try it! You can also make it in the microwave; just remember to stir every minute.",
+        "author": "ROMINA_BR",
+        "prepTime": "15 mins",
+        "cookTime": "10 mins",
+        "additionalTime": null,
+        "totalTime": "25 mins",
+        "serving": 20,
+        "yield": null,
+        "ingredients": ["1 (14 ounce) can sweetened condensed milk", "3 tablespoons unsweetened cocoa", "1 tablespoon"],
+        "steps": [
+          ["Step 1", "Gather all ingredients."],
+          ["Step 2", "Combine condensed milk, cocoa, and butter in a medium saucepan over medium heat. Cook and stir until thickened, about 10 minutes. Remove from heat and let rest until mixture is cool enough to handle."],
+          ["Step 3", "Use your hands to shape into small balls and place on a serving plate. Can be eaten at once or chilled until serving."]
+        ],
+        "imgURL": "https://www.allrecipes.com/thmb/dJCA30d7eyTh4dYYljNEanPHhmw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/JF_24052_Brigadeiro_Shot_4x3_12852-ed2771d03b5643a9a4389d8128ed3341.jpg",
+        "width": "",
+        "height": "",
+        "reviews": [
+          {
+            "name": "Murilo L. H.",
+            "commentRating": 4,
+            "date": "2002-04-05",
+            "comment": "Ok, this recipe should be better explained. This is an extremelly popular desert and very easy to make, but you do have to follow some tips: 1. Until when to cook? Until, if you tip the pan a little bit, the \"dough\" appears to be lose from the pan. To make it easier to roll them up, wait another 2 minutes after that. 2. You have to stir constantly the whole cooking time. Do not stop! 3. How to roll it: spray cooking oil in your hands (or butter/margerine). Take a teaspoon full of the dough and roll it, like you would do with clay. 4. After rolling: Roll the balls on chocolate sprinkles or on crystal sugar. Good luck!"
+          },          
+          {
+            "name": "Heather K",
+            "commentRating": 4,
+            "date": "2018-05-22",
+            "comment": "I made these for an international foods day in my son's class. While they were a bit overly sweet for me, the kids loved them. I made a double recipe and stirred over low to medium heat for just under 30 minutes. It takes patience - but I knew when it was ready because it started to bubble a bit and pull off the sides of the pot. I then put it in a greased bowl (I used cooking spray) to cool in the refrigerator overnight. In the morning I sprayed my hands and a melon baller with cooking spray, and started scooping it out and rolling it into balls and then in chocolate sprinkles. Do NOT skip greasing your hands - it makes a huge difference! I placed each one in a tiny muffin liner to keep them separate, and stored them in the refrigerator."
+          },
+          {
+            "name": "flowerthefab",
+            "commentRating": 5,
+            "date": "2014-02-15",
+            "comment": "These are great and fun to make! The recipe is spot on about how many it makes, I got 21 little balls of chocolate goodness from it. I did greese a plate and put it in the freezer for a while to get the cocolate to harden, next time it will be between two sheets of plastic as it stuck to the plate. Also discovered that instead of rolling this in something you can wrap it around pieces of fruit and whole nuts to make delicious suprises! I used strawberries, almonds and peanuts and then rolled the balls in icing sugar! They were a HUGE hit."
+          },          
+          {
+            "name": "Alec. R. W.",
+            "commentRating": 5,
+            "date": "2014-05-09",
+            "comment": "First off I made its recipe by my self if if I can do it so can you. Follow blandinas instructions simmer on medium heat for 15 to 20 min wait until it is thick. It will start to glob up on the side of the dish that's when you really need to stir or it will burn and become chewy. After that spread out in a pan until it is room temp now tool in toppings I used crushed almonds, powdered sugar, salt, and crushed chocolate chips."
+          }
+        ]
+      }
+    ]
+  }
+}

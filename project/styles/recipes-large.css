@@ -1,0 +1,93 @@
+@media screen and (min-width: 28.75rem) {
+  .cards img {
+    min-width: 450px;
+    height: auto;
+  }
+  .side-bar {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .header {
+    display: block;
+  }
+  .header-container {
+    display: grid;
+    grid-template: 1fr / 1fr 100px 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .logo {
+    justify-self: center;
+  }
+  #menu {
+    display: none;
+  }
+  .nav {
+    display: inline-flex;
+    gap: 2rem;
+  }
+  .nav1 {
+    justify-self: flex-end;
+  }
+  .nav2 {
+    justify-self: flex-start;
+  }
+  .footer-container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    align-items: center;
+  }
+  .class-info{
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .nav {
+    font-size: 1.2rem;
+  }
+  .main-content {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-around;
+  }
+  .side-bar {
+    margin: 0;
+    padding: 0;
+  }
+  .side-bar-content{
+    padding: 1rem;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 90rem) {
+  .hero-image {
+    padding: 15rem;
+  }
+  .main-content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .cards {
+    justify-content: flex-start;
+    gap: 5rem;
+  }
+  .cards section {
+    flex-direction: row;
+    min-width: 800px;
+    gap: 2rem;
+  }
+  .p-button {
+    width: 100%;
+    justify-content: center;
+  }
+}

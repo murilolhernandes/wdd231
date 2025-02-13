@@ -95,7 +95,7 @@ const courses = [
     technology: [
       'C#'
     ],
-    completed: false
+    completed: true
   },
   {
     subject: 'WDD',
@@ -123,7 +123,7 @@ const courses = [
       'CSS',
       'JavaScript'
     ],
-    completed: false
+    completed: true
   }
 ]
 

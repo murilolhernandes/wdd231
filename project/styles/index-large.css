@@ -1,0 +1,10 @@
+@media screen and (min-width: 28.75rem) {
+  .cards img {
+    min-width: 450px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  
+}

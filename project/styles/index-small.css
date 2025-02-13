@@ -72,6 +72,10 @@ nav a:hover {
   cursor: pointer;
 }
 
+.logo {
+  border-radius: 3px;
+}
+
 .logo.close {
   display: none;
 }

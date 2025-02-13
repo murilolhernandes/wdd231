@@ -141,6 +141,12 @@ h1 {
   gap: 2rem;
 }
 
+.p-button {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 h2 {
   color: #4F8269;
   font-family: "Open Sans", serif;

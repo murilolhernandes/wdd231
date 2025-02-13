@@ -60,10 +60,12 @@ function displayCategoryOverview(recipesData) {
     const randomRecipe = recipesData[category][randomIndex];
 
     let section = document.createElement("section");
+    let div = document.createElement("div");
     let categoryName = document.createElement("h2");
     let image = document.createElement("img");
     let button = document.createElement("button");
 
+    
     categoryName.textContent = categoryDisplayNames[category] || category;
     image.setAttribute("src", randomRecipe.imgURL);
     image.setAttribute("alt", `${randomRecipe.name} recipe image`);
@@ -72,10 +74,12 @@ function displayCategoryOverview(recipesData) {
     image.setAttribute("height", randomRecipe.height);
     button.setAttribute("aria-label", `${categoryDisplayNames[category] || category} Explore button`)
     button.textContent = `Explore ${categoryDisplayNames[category] || category}`;
+    div.classList.add("p-button");
 
+    div.appendChild(categoryName);
+    div.appendChild(button);
     section.appendChild(image);
-    section.appendChild(categoryName);
-    section.appendChild(button);
+    section.appendChild(div);
 
     card.appendChild(section);
   });

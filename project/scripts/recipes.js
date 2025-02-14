@@ -270,38 +270,66 @@ const displayReviews = (recipe, container) => {
   container.appendChild(commentSectionDiv);
 }
 
-// function clearButtons() {
-//   buttons = webCourses.querySelectorAll("button");
-//   buttons.forEach(button => {
-//     button.remove();
-//   })
-// }
+document.getElementById("search-bar").addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    searchRecipe();
+  }
+});
 
-// document.getElementById("all").addEventListener("click", () => {
-//   clearButtons();
-//   createCourseList(courses);
-// });
+function displayNoResultsMessage() {
+  card.innerHTML = "<p>No results found. Please try a different search term.</p>";
+}
 
-// document.getElementById("main").addEventListener("click", () => {
-//   const main = courses.filter(course => {
-//     return course.subject.includes("mainDishes");
-//   });
-//   clearButtons();
-//   createCourseList(main);
-// });
+function searchRecipe() {
+  const searchInput = document.getElementById("search-bar").value.toLowerCase();
 
-// document.getElementById("desserts").addEventListener("click", () => {
-//   const desserts = courses.filter(course => {
-//     return course.subject.includes("desserts");
-//   });
-//   clearButtons();
-//   createCourseList(desserts);
-// });
+  if (searchInput) {
+    saveSearchHistory(searchInput);
+    loadSearchHistory();
+  }
 
-// document.getElementById("snacks").addEventListener("click", () => {
-//   const snacks = courses.filter(course => {
-//     return course.subject.includes("snacks");
-//   });
-//   clearButtons();
-//   createCourseList(snacks);
-// });
+  const filteredRecipes = {};
+  let hasResults = false;
+
+  for (const category in allRecipes) {
+    const matchingRecipes = allRecipes[category].filter(recipe => recipe.name.toLowerCase().includes(searchInput));
+
+    if (matchingRecipes.length > 0) {
+      filteredRecipes[category] = matchingRecipes;
+      hasResults = true;
+    }
+  }
+  
+  if (hasResults) {
+    displayRecipes(filteredRecipes);
+  } else {
+    displayNoResultsMessage();
+  }
+}
+
+function saveSearchHistory(query) {
+  let searchHistory = JSON.parse(localStorage.getItem("searchHistory")) || [];
+
+  searchHistory.push(query);
+
+  if (searchHistory.length > 5) {
+    searchHistory.shift();
+  }
+
+  localStorage.setItem("searchHistory", JSON.stringify(searchHistory));
+}
+
+function loadSearchHistory() {
+  const searchHistory = JSON.parse(localStorage.getItem("searchHistory"));
+  const historyContainer = document.querySelector(".history");
+
+  historyContainer.innerHTML = "";
+
+  searchHistory.forEach(query => {
+    const p = document.createElement("p");
+    p.textContent = query;
+    historyContainer.appendChild(p);
+  });
+}
+
+loadSearchHistory();

@@ -16,7 +16,7 @@ hamButton.addEventListener("click", () => {
   image.classList.toggle("close");
 });
 
-const filterButtons = document.querySelector(".filters");
+const filterButtons = document.querySelector(".filterButtons");
 
 let filters = [
   {
@@ -60,6 +60,8 @@ function createButtons() {
 const recipes = "./data/recipes.json";
 const card = document.querySelector(".cards");
 let allRecipes = {};
+let popularSearches = document.querySelector(".searches");
+let trendingRecipes = document.querySelector(".trending-recipes"); 
 
 async function getRecipes() {
   const response = await fetch(recipes);
@@ -67,6 +69,8 @@ async function getRecipes() {
   allRecipes = data.recipes;
   // console.log(data);
   displayRecipes(data.recipes);
+  loadPopularSearches();
+  loadTrendingRecipes();
 }
 
 getRecipes();
@@ -119,13 +123,13 @@ const displayRecipes = (recipes) => {
       image.setAttribute("width", recipe.width);
       image.setAttribute("height", recipe.height);
       description.textContent = `${recipe.description}`;
-      recipeRating.textContent = `Rating: ${recipe.recipeRating}`;
-      prepTime.textContent = `Prep Time: ${recipe.prepTime}`;
-      cookTime.textContent = `Cook Time: ${recipe.cookTime}`;
-      addTime.textContent = `Additional Time: ${recipe.additionalTime || 'N/A'}`;
-      totalTime.textContent = `Total Time: ${recipe.totalTime}`;
-      servings.textContent = `Servings: ${recipe.serving}`;
-      yield.textContent = `Yield: ${recipe.yield || 'N/A'}`;
+      recipeRating.innerHTML = `<span>Rating:</span> ${recipe.recipeRating}`;
+      prepTime.innerHTML = `<span>Prep Time:</span> <p>${recipe.prepTime}</p>`;
+      cookTime.innerHTML = `<span>Cook Time:</span> <p>${recipe.cookTime}</p>`;
+      addTime.innerHTML = `<span>Additional Time:</span> <p>${recipe.additionalTime || 'N/A'}</p>`;
+      totalTime.innerHTML = `<span>Total Time:</span> <p>${recipe.totalTime}</p>`;
+      servings.innerHTML = `<span>Servings:</span> <p>${recipe.serving}</p>`;
+      yield.innerHTML = `<span>Yield:</span> <p>${recipe.yield || 'N/A'}</p>`;
       button.textContent = "View Recipe";
 
       section.classList.add("card-section");
@@ -191,6 +195,8 @@ const displayRecipes = (recipes) => {
 };
 
 const filterRecipes = (category) => {
+  openSection = null;
+  
   if (category === "all") {
     displayRecipes(allRecipes);
   } else {
@@ -221,6 +227,17 @@ const displayDetails = (recipe, container) => {
   let ingredientsDiv = document.createElement("div");
   let directionsDiv = document.createElement("div");
   let ingredientsList = document.createElement("ul");
+  let ingredientsH2 = document.createElement("h2");
+  let directionsH2 = document.createElement("h2");
+
+  ingredientsH2.textContent = "Ingredients:";
+  directionsH2.textContent = "Directions:";
+  ingredientsDiv.appendChild(ingredientsH2);
+  directionsDiv.appendChild(directionsH2);
+
+  knowMoreDiv.classList.add("know-more");
+  ingredientsDiv.classList.add("ingredients");
+  directionsDiv.classList.add("directions");
 
   recipe.ingredients.forEach((ingredient) => {
     let li = document.createElement("li");
@@ -230,7 +247,7 @@ const displayDetails = (recipe, container) => {
 
   recipe.steps.forEach((step) => {
     let directions = document.createElement("p");
-    directions.textContent = `${step[0]}. ${step[1]}`;
+    directions.innerHTML = `<span class="step-number">${step[0]}.</span> <span class="step-text">${step[1]}</span>`;
     directionsDiv.appendChild(directions);
   });
 
@@ -244,8 +261,10 @@ const displayDetails = (recipe, container) => {
 const displayReviews = (recipe, container) => {
   let commentSectionDiv = document.createElement("section");
   let reviewCounter = document.createElement("h2");
+  let reviewsH3 = document.createElement("h3");
 
   reviewCounter.textContent = `Reviews: (${recipe.reviews.length})`;
+  reviewsH3.textContent = "Reviews:";
   commentSectionDiv.appendChild(reviewCounter);
 
   recipe.reviews.forEach((review) => {
@@ -255,19 +274,64 @@ const displayReviews = (recipe, container) => {
     let commentDate = document.createElement("p");
     let comment = document.createElement("p");
 
+    commentDiv.classList.add("comment");
+
     commentAuthor.textContent = review.name;
     commentRating.textContent = `Rating: ${review.commentRating}`;
-    commentDate.textContent = `Date: ${review.date}`;
+    commentDate.textContent = `Date: ${formatDateToMMDDYYYY(review.date)}`;
     comment.textContent = `${review.comment}`;
     commentDiv.appendChild(commentAuthor);
     commentDiv.appendChild(commentRating);
     commentDiv.appendChild(commentDate);
     commentDiv.appendChild(comment);
-    commentDiv.classList.add("comment");
     commentSectionDiv.appendChild(commentDiv);
   });
 
   container.appendChild(commentSectionDiv);
+}
+
+function formatDateToMMDDYYYY(dateString) {
+  const date = new Date(dateString);
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  const year = date.getFullYear();
+
+  return `${month}/${day}/${year}`;
+}
+
+function loadPopularSearches() {
+  popularSearches.innerHTML = "";
+  
+  for (let i = 0; i < 3; i++) {
+    randomRecipe(popularSearches);
+  }
+}
+
+function loadTrendingRecipes() {
+  trendingRecipes.innerHTML = "";
+
+  for (const category in allRecipes) {
+    randomRecipe(trendingRecipes, category);
+  }
+}
+
+function randomRecipe(section, category = null) {
+  let recipesArray;
+
+  if (category) {
+    recipesArray = allRecipes[category];
+  } else {
+    recipesArray = Object.values(allRecipes).flat();
+  }
+
+  if (!recipesArray || recipesArray.length === 0) return;
+
+  const randomIndex = Math.floor(Math.random() * recipesArray.length);
+  const randomRecipe = recipesArray[randomIndex];
+
+  let p = document.createElement("p");
+  p.innerHTML = randomRecipe.name;
+  section.appendChild(p);
 }
 
 document.getElementById("search-bar").addEventListener("keydown", function(event) {
@@ -277,7 +341,7 @@ document.getElementById("search-bar").addEventListener("keydown", function(event
 });
 
 function displayNoResultsMessage() {
-  card.innerHTML = "<p>No results found. Please try a different search term.</p>";
+  card.innerHTML = "<p class='no-results'>No results found. Please try a different search term.</p>";
 }
 
 function searchRecipe() {

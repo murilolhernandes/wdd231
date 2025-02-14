@@ -217,6 +217,10 @@ ul {
   background-color: #F4F1DE;
 }
 
+.cards img {
+  border-radius: 3px;
+}
+
 /* ---------- Footer ---------- */
 footer {
   text-align: center;

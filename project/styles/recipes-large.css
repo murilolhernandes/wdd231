@@ -60,12 +60,16 @@
     padding: 0;
   }
   .side-bar-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     padding: 1rem;
-    border: 1px solid #000;
-    justify-content: center;
-    align-items: center;
     position: sticky;
-    top: 0;
+    top: 140px;
+    overflow-y: auto;
+  }
+  .search, .trending, .join {
+    border: 1px solid #000;
   }
 }
 

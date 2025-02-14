@@ -13,6 +13,11 @@ body {
   padding: 1rem;
   display: flex;
   justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #F4F1DE;
+  border-bottom: 1px solid #000;
 }
 
 .header.open {
@@ -115,7 +120,6 @@ h1 {
   background: none;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  /* color: #E05B37; */
   color: #fff;
   text-align: center;
   font-size: 3rem;
@@ -124,7 +128,6 @@ h1 {
 
 .wayfinding {
   color: #E05B37;
-  /* color: #4F8269; */
   font-family: "Open Sans", serif;
   font-weight: 800;
   font-size: 3rem;
@@ -209,7 +212,7 @@ ul {
   cursor: pointer;
 }
 
-.join a:hover {
+.join a:hover, .cards section button:hover {
   color: #E05B37;
   background-color: #F4F1DE;
 }

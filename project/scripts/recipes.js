@@ -59,17 +59,22 @@ function createButtons() {
 
 const recipes = "./data/recipes.json";
 const card = document.querySelector(".cards");
+let allRecipes = {};
 
 async function getRecipes() {
   const response = await fetch(recipes);
   const data = await response.json();
+  allRecipes = data.recipes;
   // console.log(data);
   displayRecipes(data.recipes);
 }
 
 getRecipes();
 
+let openSection = null;
+
 const displayRecipes = (recipes) => {
+  card.innerHTML = "";
   let recipeIndex = 0;
 
   for (const category in recipes) {
@@ -161,14 +166,22 @@ const displayRecipes = (recipes) => {
       card.appendChild(section);
       card.appendChild(reviewInfoDiv);
 
-      
       button.addEventListener("click", () => {
-        if (recipeInfoDiv && reviewInfoDiv) {
+        if (openSection && openSection !== section) {
+          openSection.querySelector(".recipe-info").innerHTML = "";
+          openSection.nextElementSibling.innerHTML = "";
+        }
+
+        if (openSection === section) {
           recipeInfoDiv.innerHTML = "";
           reviewInfoDiv.innerHTML = "";
-
+          openSection = null;
+        } else {
+          recipeInfoDiv.innerHTML = "";
+          reviewInfoDiv.innerHTML = "";
           displayDetails(recipe, recipeInfoDiv);
           displayReviews(recipe, reviewInfoDiv);
+          openSection = section;
         }
       });
 
@@ -177,9 +190,33 @@ const displayRecipes = (recipes) => {
   }
 };
 
-const displayDetails = (recipe, container) => {
-  // console.log(`Displaying details for: ${recipe.name}`);
+const filterRecipes = (category) => {
+  if (category === "all") {
+    displayRecipes(allRecipes);
+  } else {
+    const filteredRecipes = {};
+    filteredRecipes[category] = allRecipes[category] || [];
+    displayRecipes(filteredRecipes);
+  }
+};
 
+document.getElementById("all").addEventListener("click", () => {
+  filterRecipes("all");
+});
+
+document.getElementById("main").addEventListener("click", () => {
+  filterRecipes("mainDishes");
+});
+
+document.getElementById("desserts").addEventListener("click", () => {
+  filterRecipes("desserts");
+});
+
+document.getElementById("snacks").addEventListener("click", () => {
+  filterRecipes("snacks");
+});
+
+const displayDetails = (recipe, container) => {
   let knowMoreDiv = document.createElement("div");
   let ingredientsDiv = document.createElement("div");
   let directionsDiv = document.createElement("div");
@@ -205,14 +242,11 @@ const displayDetails = (recipe, container) => {
 }
 
 const displayReviews = (recipe, container) => {
-  // console.log(`Displaying reviews for: ${recipe.name}`);
-
   let commentSectionDiv = document.createElement("section");
   let reviewCounter = document.createElement("h2");
 
   reviewCounter.textContent = `Reviews: (${recipe.reviews.length})`;
   commentSectionDiv.appendChild(reviewCounter);
-
 
   recipe.reviews.forEach((review) => {
     let commentDiv = document.createElement("div");
@@ -236,38 +270,38 @@ const displayReviews = (recipe, container) => {
   container.appendChild(commentSectionDiv);
 }
 
-function clearButtons() {
-  buttons = webCourses.querySelectorAll("button");
-  buttons.forEach(button => {
-    button.remove();
-  })
-}
+// function clearButtons() {
+//   buttons = webCourses.querySelectorAll("button");
+//   buttons.forEach(button => {
+//     button.remove();
+//   })
+// }
 
-document.getElementById("all").addEventListener("click", () => {
-  clearButtons();
-  createCourseList(courses);
-});
+// document.getElementById("all").addEventListener("click", () => {
+//   clearButtons();
+//   createCourseList(courses);
+// });
 
-document.getElementById("main").addEventListener("click", () => {
-  const main = courses.filter(course => {
-    return course.subject.includes("mainDishes");
-  });
-  clearButtons();
-  createCourseList(main);
-});
+// document.getElementById("main").addEventListener("click", () => {
+//   const main = courses.filter(course => {
+//     return course.subject.includes("mainDishes");
+//   });
+//   clearButtons();
+//   createCourseList(main);
+// });
 
-document.getElementById("desserts").addEventListener("click", () => {
-  const desserts = courses.filter(course => {
-    return course.subject.includes("desserts");
-  });
-  clearButtons();
-  createCourseList(desserts);
-});
+// document.getElementById("desserts").addEventListener("click", () => {
+//   const desserts = courses.filter(course => {
+//     return course.subject.includes("desserts");
+//   });
+//   clearButtons();
+//   createCourseList(desserts);
+// });
 
-document.getElementById("snacks").addEventListener("click", () => {
-  const snacks = courses.filter(course => {
-    return course.subject.includes("snacks");
-  });
-  clearButtons();
-  createCourseList(snacks);
-});
+// document.getElementById("snacks").addEventListener("click", () => {
+//   const snacks = courses.filter(course => {
+//     return course.subject.includes("snacks");
+//   });
+//   clearButtons();
+//   createCourseList(snacks);
+// });

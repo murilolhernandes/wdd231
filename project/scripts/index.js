@@ -15,7 +15,6 @@ async function getRecipes() {
     const response = await fetch(recipes);
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const data = await response.json();
-    // console.log('Fetched data:', data);
     return data;
   } catch (error) {
     console.error('There was a problem with the fetch operation:', error);
@@ -24,7 +23,6 @@ async function getRecipes() {
 
 getRecipes().then(data => {
   if (data && data.recipes) {
-    // console.log('Recipes data:', data.recipes);
     displayCategoryOverview(data.recipes);
   } else {
     console.error('No recipes property found in data');
@@ -38,7 +36,6 @@ function displayCategoryOverview(recipesData) {
   }
 
   const categories = Object.keys(recipesData);
-  // console.log('Categories found:', categories);
 
   categories.forEach((category) => {
     const randomIndex = Math.floor(Math.random() * recipesData[category].length);
@@ -80,3 +77,40 @@ function displayCategoryOverview(recipesData) {
   });
 }
 
+const dialogBox = document.querySelector("#dialogBox");
+const closeButton = document.querySelector("#closeButton");
+const dialogBoxText = document.querySelector("#dialogBox div");
+
+document.querySelector("#about-us").addEventListener("click", () => {
+  dialogBox.showModal();
+  dialogBoxText.innerHTML = `
+  <h2>About Us</h2>
+  <p>Welcome to Cookbook Corner, your go-to destination for discovering and sharing delicious recipes from around the world! Whether you're a seasoned chef or a home cook, our platform is designed to inspire your culinary creativity and connect you with a community of food enthusiasts.</p>
+  `;
+});
+
+document.querySelector("#our-mission").addEventListener("click", () => {
+  dialogBox.showModal();
+  dialogBoxText.innerHTML = `
+  <h2>Our Mission</h2>
+  <p>At Cookbook Corner, we believe that cooking is more than just preparing meals—it's an art form that brings people together. Our mission is to create a vibrant space where food lovers can explore new flavors, share their favorite recipes, and learn from one another. We aim to make cooking accessible and enjoyable for everyone, regardless of skill level.</p>
+  <p>The benefits of a Bronze Membership are:</p>
+  `;
+});
+
+document.querySelector("#offer").addEventListener("click", () => {
+  dialogBox.showModal();
+  dialogBoxText.innerHTML = `
+  <h2>What We Offer</h2>
+  <ul>
+    <li>Diverse Recipes: Explore a wide variety of recipes, from quick weeknight dinners to gourmet dishes, contributed by our passionate community.</li>
+    <li>User-Friendly Experience: Our intuitive platform makes it easy to search for recipes, save your favorites, and share your culinary creations with others.</li>
+    <li>Community Engagement: Connect with fellow food enthusiasts through comments, ratings, and discussions. Share tips, ask questions, and celebrate your love for cooking together.</li>
+    <li>Inspiration and Learning: Discover new cooking techniques, ingredient highlights, and culinary trends through our curated content and featured recipes.</li>
+  </ul>
+  `;
+});
+
+closeButton.addEventListener("click", () => {
+  dialogBox.close();
+})

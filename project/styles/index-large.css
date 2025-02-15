@@ -69,6 +69,14 @@
     top: 140px;
     overflow-y: auto;
   }
+  .join a:hover, .cards section button:hover, .side-bar-content button:hover {
+    color: #E05B37;
+    background-color: #F4F1DE;
+    border: 1px solid #E05B37;
+  }
+  #dialogBox {
+    max-width: 500px;
+  }
 }
 
 @media screen and (min-width: 90rem) {
@@ -91,5 +99,8 @@
   .p-button {
     width: 100%;
     justify-content: center;
+  }
+  #dialogBox {
+    max-width: 800px;
   }
 }

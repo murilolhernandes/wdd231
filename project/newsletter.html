@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookbook Corner - Newsletter</title>
     <meta name="author" content="Murilo Hernandes">
-    <meta name="description" content="Newsletter page of Cookbook Corner">
+    <meta name="description" content="Newsletter Page - Cookbook Corner">
     <meta property="og:title" content="Cookbook Corner - Newsletter">
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://github.com/murilolhernandes/wdd231/tree/main/project/images/logo.webp">
     <meta property="og:url" content="https://murilolhernandes.github.io/wdd231/project/newsletter.html">
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:description" content="Newsletter page of Cookbook Corner">
-    <meta property="og:site_name" content="Cookbook Corner">
+    <meta property="og:description" content="Newsletter Page - Cookbook Corner">
+    <meta property="og:site_name" content="Cookbook Corner - Newsletter Page">
     <meta name="twitter:image:alt" content="Cookbook Corner - Website Logo">
-    <link rel="stylesheet" href="styles/index-small.css">
-    <link rel="stylesheet" href="styles/index-large.css">
-    <script src="scripts/index.js" defer></script> 
+    <link rel="stylesheet" href="styles/newsletter-small.css">
+    <link rel="stylesheet" href="styles/newsletter-large.css">
+    <script src="scripts/newsletter.js" defer></script> 
     <link rel="icon" href="images/favicon2.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,6 +43,18 @@
       </div>
       <div><h2 class="wayfinding">Newsletter</h2></div>
       <div class="main-content">
+        <form method="GET">
+          <fieldset>
+            <legend>Sign up for our newsletter</legend>
+            <div>Required fields are marked with an <span class="required">*</span></div>
+            <label>Email <span class="required">*</span><input type="email" name="email" title="Please enter your email" autocomplete="email" placeholder="john.doe@example.com" required></label>
+            <label>First Name <span class="required">*</span><input type="text" name="fname" title="Please enter your first name" autocomplete="given-name" placeholder="John" required></label>
+            <label>Last Name <span class="optional">(optional)</span><input type="text" name="lname" title="Please enter your last name" autocomplete="family-name" placeholder="Doe"></label>
+            <label><input type="checkbox" name="newsletter" value="agreement" required>I agree to receive monthly newsletter emails <span class="required">*</span></label>
+            <label><input type="checkbox" name="promotional" value="agreement">I agree to receive promotional emails <span class="optional">(optional)</span></label>
+            <input type="submit" value="Sign Me Up">
+          </fieldset>
+        </form>
       </div>
     </main>
     <footer>

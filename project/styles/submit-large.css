@@ -1,0 +1,59 @@
+@media screen and (min-width: 48rem) {
+  .header {
+    display: block;
+  }
+  .header-container {
+    display: grid;
+    grid-template: 1fr / 1fr 100px 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .logo {
+    justify-self: center;
+  }
+  #menu {
+    display: none;
+  }
+  .nav {
+    display: inline-flex;
+    gap: 2rem;
+  }
+  .nav1 {
+    justify-self: flex-end;
+  }
+  .nav2 {
+    justify-self: flex-start;
+  }
+  input, textarea {
+    font-size: 1rem;
+  }
+  .footer-container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    align-items: center;
+  }
+  .class-info{
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .nav {
+    font-size: 1.2rem;
+  }
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 90rem) {
+  .hero-image {
+    padding: 15rem;
+  }
+  .main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}

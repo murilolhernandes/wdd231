@@ -87,10 +87,17 @@ const displayRecipes = (recipes) => {
       section.id = `recipe-${recipeIndex}`;
 
       let recipeName = document.createElement("h2");
-      let image = document.createElement("img");
-      let description = document.createElement("p");
+
+      let recipeRatingDiv = document.createElement("div");
       let recipeRating = document.createElement("p");
+      let recipeReviews = document.createElement("p");
+
+      let image = document.createElement("img");
+      let descriptionDiv = document.createElement("div");
+      let description = document.createElement("p");
+      let recipeAuthor = document.createElement("p");
       let recipeDetailsDiv = document.createElement("div");
+      let recipeDetailsDiv2 = document.createElement("div");
 
       let prepTimeDiv = document.createElement("div");
       let prepTime = document.createElement("h3");
@@ -117,26 +124,31 @@ const displayRecipes = (recipes) => {
       let reviewInfoDiv = document.createElement("div");
 
       recipeName.textContent = `${recipe.name}`;
+      recipeAuthor.innerHTML = `By: <span class="author">${recipe.author}</span>`;
+      recipeReviews.innerHTML = `${recipe.reviews.length} reviews`;
       image.setAttribute("src", recipe.imgURL);
       image.setAttribute("alt", `${recipe.name} recipe image`);
       image.setAttribute("loading", "lazy");
       image.setAttribute("width", recipe.width);
       image.setAttribute("height", recipe.height);
       description.textContent = `${recipe.description}`;
-      recipeRating.innerHTML = `<span>Rating:</span> ${recipe.recipeRating}`;
+      recipeRating.innerHTML = `<span class="rating">Rating:</span> ${recipe.recipeRating}`;
       prepTime.innerHTML = `<span>Prep Time:</span> <p>${recipe.prepTime}</p>`;
       cookTime.innerHTML = `<span>Cook Time:</span> <p>${recipe.cookTime}</p>`;
       addTime.innerHTML = `<span>Additional Time:</span> <p>${recipe.additionalTime || 'N/A'}</p>`;
       totalTime.innerHTML = `<span>Total Time:</span> <p>${recipe.totalTime}</p>`;
       servings.innerHTML = `<span>Servings:</span> <p>${recipe.serving}</p>`;
       yield.innerHTML = `<span>Yield:</span> <p>${recipe.yield || 'N/A'}</p>`;
-      button.textContent = "View Recipe";
+      button.textContent = "View Recipe ";
 
       section.classList.add("card-section");
+      recipeRatingDiv.classList.add("recipe-rating-container");
+      recipeReviews.classList.add("reviews");
+      recipeRating.classList.add("recipe-rating");
       recipeDetailsDiv.classList.add("recipe-details");
+      recipeDetailsDiv2.classList.add("recipe-details2");
       prepTimeDiv.classList.add("prep-time");
       cookTimeDiv.classList.add("cook-time");
-      addTimeDiv.classList.add("add-time");
       addTimeDiv.classList.add("add-time");
       totalTimeDiv.classList.add("total-time");
       servingsDiv.classList.add("servings");
@@ -145,7 +157,12 @@ const displayRecipes = (recipes) => {
       button.classList.add("button");
       recipeInfoDiv.classList.add("recipe-info");
       reviewInfoDiv.classList.add("review-info");
+      descriptionDiv.classList.add("description");
 
+      recipeRatingDiv.appendChild(recipeRating);
+      recipeRatingDiv.appendChild(recipeReviews);
+      descriptionDiv.appendChild(description);
+      descriptionDiv.appendChild(recipeAuthor);
       prepTimeDiv.appendChild(prepTime);
       cookTimeDiv.appendChild(cookTime);
       addTimeDiv.appendChild(addTime);
@@ -160,12 +177,13 @@ const displayRecipes = (recipes) => {
       recipeDetailsDiv.appendChild(servingsDiv);
       recipeDetailsDiv.appendChild(yieldDiv);
       recipeDetailsDiv.appendChild(buttonDiv);
-      recipeDetailsDiv.appendChild(recipeInfoDiv);
+      recipeDetailsDiv2.appendChild(recipeDetailsDiv);
+      recipeDetailsDiv2.appendChild(recipeInfoDiv);
       section.appendChild(recipeName);
+      section.appendChild(recipeRatingDiv);
+      section.appendChild(descriptionDiv);
       section.appendChild(image);
-      section.appendChild(description);
-      section.appendChild(recipeRating);
-      section.appendChild(recipeDetailsDiv);
+      section.appendChild(recipeDetailsDiv2);
 
       card.appendChild(section);
       card.appendChild(reviewInfoDiv);
@@ -174,20 +192,26 @@ const displayRecipes = (recipes) => {
         if (openSection && openSection !== section) {
           openSection.querySelector(".recipe-info").innerHTML = "";
           openSection.nextElementSibling.innerHTML = "";
+          openSection.querySelector("button").classList.remove("open");
         }
 
         if (openSection === section) {
           recipeInfoDiv.innerHTML = "";
-          reviewInfoDiv.innerHTML = "";
+          // reviewInfoDiv.innerHTML = "";
           openSection = null;
+          button.classList.remove("open");
         } else {
           recipeInfoDiv.innerHTML = "";
-          reviewInfoDiv.innerHTML = "";
+          // reviewInfoDiv.innerHTML = "";
           displayDetails(recipe, recipeInfoDiv);
-          displayReviews(recipe, reviewInfoDiv);
+          // displayReviews(recipe, reviewInfoDiv);
           openSection = section;
+          button.classList.add("open");
         }
       });
+
+      displayReviews(recipe, reviewInfoDiv);
+
 
       recipeIndex++;
     });

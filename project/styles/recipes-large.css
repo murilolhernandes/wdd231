@@ -36,6 +36,17 @@
   .nav2 {
     justify-self: flex-start;
   }
+  .filterButtons {
+    top: 130px;
+  }
+  .card-section p, .recipe-info li {
+    margin: 0 11rem;
+  }
+  .button:hover {
+    color: #E05B37;
+    background-color: #F4F1DE;
+    cursor: pointer;
+  }
   .footer-container {
     display: grid;
     grid-template: 1fr / repeat(3, 1fr);

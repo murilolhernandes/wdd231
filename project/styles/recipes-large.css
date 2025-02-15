@@ -1,11 +1,15 @@
 @media screen and (min-width: 28.75rem) {
-  .cards img {
-    min-width: 450px;
+  .cards img, .comment, .recipe-details {
+    min-width: 400px;
     height: auto;
   }
-  .side-bar {
-    max-width: 450px;
+  .side-bar-content {
+    display: block;
+    min-width: 400px;
     margin: 0 auto;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 400px;
   }
 }
 
@@ -38,14 +42,43 @@
   }
   .filterButtons {
     top: 130px;
+    gap: 5rem;
   }
-  .card-section p, .recipe-info li {
-    margin: 0 11rem;
+  .filters {
+    font-size: 1.2rem;
   }
-  .button:hover {
-    color: #E05B37;
-    background-color: #F4F1DE;
-    cursor: pointer;
+  .cards img, .comment, .recipe-details {
+    min-width: 600px;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 600px;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .recipe-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .button-div {
+    grid-column: 1 / 4;
+  }
+  .know-more {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #E05B37;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  .ingredients {
+    border-right: 1px solid #000;
+  }
+  .directions {
+    padding-left: 1rem;
+  }
+  .directions h2 {
+    padding-bottom: 0;
   }
   .footer-container {
     display: grid;
@@ -61,45 +94,73 @@
   .nav {
     font-size: 1.2rem;
   }
+  .cards img, .review-info, .recipe-details {
+    min-width: 500px;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 500px;
+  }
   .main-content {
-    flex-direction: row;
-    gap: 0;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .card-section {
+    border: 1px solid #E05B37;
+    border-radius: 3px;
+    padding: 2rem;
+  }
+  .button:hover {
+    color: #E05B37;
+    background-color: #F4F1DE;
+    border: 1px solid #E05B37;
+    cursor: pointer;
+  }
+  .know-more {
+    margin-bottom: 0;
   }
   .side-bar {
     margin: 0;
     padding: 0;
+    border: 1px solid #E05B37;
+    border-radius: 3px;
+    margin: .6rem;
   }
   .side-bar-content{
+    min-width: 280px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
     position: sticky;
-    top: 140px;
+    top: 150px;
     overflow-y: auto;
   }
   .search, .trending, .join {
-    border: 1px solid #000;
+    border: 1px solid #E05B37;
+    border-radius: 3px;
+    padding: 1rem;
+  }
+  #search-bar {
+    font-size: .96rem;
   }
 }
 
 @media screen and (min-width: 90rem) {
+
   .hero-image {
     padding: 15rem;
   }
-  .main-content {
-    max-width: 1400px;
-    margin: 0 auto;
+  /* .main-content {
+    max-width: 1000px;
+  } */
+  .side-bar {
+    max-width: 300px;
   }
   .cards {
     justify-content: flex-start;
     gap: 5rem;
-  }
-  .cards section {
-    flex-direction: row;
-    min-width: 800px;
-    gap: 2rem;
   }
   .p-button {
     width: 100%;

@@ -283,6 +283,7 @@ const displayDetails = (recipe, container) => {
 }
 
 const displayReviews = (recipe, container) => {
+  let reviewsDiv = document.createElement("div");
   let commentSectionDiv = document.createElement("section");
   let reviewCounter = document.createElement("h2");
   let reviewsH3 = document.createElement("h3");
@@ -290,6 +291,7 @@ const displayReviews = (recipe, container) => {
   reviewCounter.textContent = `Reviews: (${recipe.reviews.length})`;
   reviewsH3.textContent = "Reviews:";
   commentSectionDiv.appendChild(reviewCounter);
+  reviewsDiv.classList.add("reviews-container");
 
   recipe.reviews.forEach((review) => {
     let commentDiv = document.createElement("div");
@@ -311,7 +313,8 @@ const displayReviews = (recipe, container) => {
     commentSectionDiv.appendChild(commentDiv);
   });
 
-  container.appendChild(commentSectionDiv);
+  reviewsDiv.appendChild(commentSectionDiv);
+  container.appendChild(reviewsDiv);
 }
 
 function formatDateToMMDDYYYY(dateString) {

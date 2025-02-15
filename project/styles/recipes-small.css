@@ -205,14 +205,12 @@ ul {
 }
 
 .card-section p, .recipe-info li {
-  /* margin: 0 2rem; */
   font-size: 1.2rem;
 }
 
 .recipe-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* margin: 0 .6rem; */
   gap: .5rem;
   border: 1px solid #E05B37;
   border-radius: 3px;
@@ -294,7 +292,6 @@ ul {
   padding: 1rem;
   border-radius: 3px;
   min-width: 300px;
-
 }
 
 .card-section img {
@@ -305,7 +302,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  /* padding: 0 2rem; */
 }
 
 .side-bar-content {
@@ -330,9 +326,7 @@ ul {
   width: 100%;
   padding: .5rem;
   border-radius: 3px;
-  /* border: 1px solid #000; */
   border: .5px solid #E05B37;
-  border-radius: 3px;
   font-family: "Open Sans", serif;
   font-size: .96rem;
   font-weight: bold;
@@ -381,14 +375,11 @@ ul {
 }
 
 .button::after {
-  /* content: "\2193"; */
-  content: "\21D3";
-
+  content: "\2935";
 }
 
 .button.open::after {
-  /* content: "\2191"; */
-  content: "\21D1";
+  content: "\2934";
 }
 
 /* ---------- Footer ---------- */

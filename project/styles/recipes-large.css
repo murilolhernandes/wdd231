@@ -115,6 +115,7 @@
     background-color: #F4F1DE;
     border: 1px solid #E05B37;
     cursor: pointer;
+    top: 160px;
   }
   .know-more {
     margin-bottom: 0;
@@ -124,7 +125,7 @@
     padding: 0;
     border: 1px solid #E05B37;
     border-radius: 3px;
-    margin: .6rem;
+    margin-bottom: .6rem;
   }
   .side-bar-content{
     min-width: 280px;

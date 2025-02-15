@@ -416,11 +416,17 @@ function loadSearchHistory() {
 
   historyContainer.innerHTML = "";
 
-  searchHistory.forEach(query => {
-    const p = document.createElement("p");
-    p.textContent = query;
-    historyContainer.appendChild(p);
-  });
+  if (searchHistory && searchHistory.length > 0) {
+    searchHistory.forEach(query => {
+      const p = document.createElement("p");
+      p.textContent = query;
+      historyContainer.appendChild(p);
+    });
+  } else {
+    const message = document.createElement("p");
+    message.textContent = "You haven't searched for any recipes yet!";
+    historyContainer.appendChild(message);
+  }
 }
 
 loadSearchHistory();

@@ -1,0 +1,136 @@
+@media screen and (min-width: 28.75rem) {
+  .cards img, .recipe-details {
+    min-width: 400px;
+    height: auto;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .header {
+    display: block;
+  }
+  .header-container {
+    display: grid;
+    grid-template: 1fr / 1fr 100px 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .logo {
+    justify-self: center;
+  }
+  #menu {
+    display: none;
+  }
+  .nav {
+    display: inline-flex;
+    gap: 2rem;
+  }
+  .nav1 {
+    justify-self: flex-end;
+  }
+  .nav2 {
+    justify-self: flex-start;
+  }
+  .cards img, .recipe-details {
+    min-width: 600px;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 600px;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .recipe-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .know-more {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #E05B37;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  .ingredients {
+    border-right: 1px solid #000;
+    padding: 0;
+  }
+  .directions {
+    padding-left: 1rem;
+  }
+  .directions h2 {
+    padding: 0;
+  }
+  .footer-container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    align-items: center;
+  }
+  .class-info{
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .nav {
+    font-size: 1.2rem;
+  }
+  .cards img, .recipe-details {
+    min-width: 700px;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 700px;
+  }
+  .recipe-details, .recipe-info {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .card-section {
+    border: 1px solid #E05B37;
+    border-radius: 3px;
+    padding: 2rem;
+  }
+  .button:hover {
+    color: #E05B37;
+    background-color: #F4F1DE;
+    border: 1px solid #E05B37;
+    cursor: pointer;
+    top: 160px;
+  }
+  .know-more {
+    margin-bottom: 0;
+  }
+  .timestamp {
+    padding-top: 1rem;
+  };
+}
+
+@media screen and (min-width: 90rem) {
+  .hero-image {
+    padding: 15rem;
+  }
+  .cards {
+    justify-content: flex-start;
+    gap: 5rem;
+  }
+  .cards img, .recipe-details {
+    min-width: 800px;
+  }
+  .wayfinding-container, .main-content {
+    max-width: 800px;
+  }
+  .recipe-details, .recipe-info {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

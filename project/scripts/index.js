@@ -72,6 +72,7 @@ function displayCategoryOverview(recipesData) {
     image.setAttribute("loading", "lazy");
     image.setAttribute("width", randomRecipe.width);
     image.setAttribute("height", randomRecipe.height);
+    button.setAttribute("data-category", category);
     button.setAttribute("aria-label", `${categoryDisplayNames[category] || category} Explore button`)
     button.textContent = `Explore ${categoryDisplayNames[category] || category}`;
     div.classList.add("p-button");
@@ -82,5 +83,15 @@ function displayCategoryOverview(recipesData) {
     section.appendChild(div);
 
     card.appendChild(section);
+
+    document.querySelectorAll(".p-button button[data-category]").forEach(button => {
+      console.log(`Button found: ${button}`);
+      button.addEventListener("click", (event) => {
+        const category = event.target.getAttribute("data-category");
+        console.log(`Button clicked: ${category}`);
+        window.location.href = `https://murilolhernandes.github.io/wdd231/project/recipes.html?filter=${category}`;
+      });
+    });
   });
 }
+

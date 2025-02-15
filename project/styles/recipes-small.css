@@ -376,6 +376,7 @@ ul {
 .join a:hover{
   color: #E05B37;
   background-color: #F4F1DE;
+  border: 1px solid #E05B37;
 }
 
 .button::after {

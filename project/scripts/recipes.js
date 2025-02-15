@@ -68,9 +68,10 @@ async function getRecipes() {
   const data = await response.json();
   allRecipes = data.recipes;
   // console.log(data);
-  displayRecipes(data.recipes);
+  // displayRecipes(data.recipes);
   loadPopularSearches();
   loadTrendingRecipes();
+  applyFilterFromURL();
 }
 
 getRecipes();
@@ -430,3 +431,13 @@ function loadSearchHistory() {
 }
 
 loadSearchHistory();
+
+function applyFilterFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const filter = urlParams.get("filter");
+  if (filter) {
+    filterRecipes(filter);
+  } else {
+    displayRecipes(allRecipes);
+  }
+}

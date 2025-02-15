@@ -195,6 +195,7 @@ input[type="submit"] {
 
 .optional {
   color: #4F8269;
+  font-weight: 800;
 }
 
 input[type="checkbox"] {

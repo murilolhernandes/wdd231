@@ -1,20 +1,23 @@
-const today = new Date();
-document.getElementById("currentYear").innerHTML = `&copy; ${today.getFullYear()} Rexburg Chamber of Commerce`;
-document.getElementById("lastModified").innerHTML = `Last Modification: ${document.lastModified}`;
+// const today = new Date();
+// document.getElementById("currentYear").innerHTML = `&copy; ${today.getFullYear()} Rexburg Chamber of Commerce`;
+// document.getElementById("lastModified").innerHTML = `Last Modification: ${document.lastModified}`;
 
-const hamButton = document.getElementById("menu");
-const navigation = document.querySelectorAll(".nav");
-const header = document.querySelector("header");
-const headerContainer = document.querySelector(".header-container");
-const image = document.querySelector(".logo");
+// const hamButton = document.getElementById("menu");
+// const navigation = document.querySelectorAll(".nav");
+// const header = document.querySelector("header");
+// const headerContainer = document.querySelector(".header-container");
+// const image = document.querySelector(".logo");
 
-hamButton.addEventListener("click", () => {
-  navigation.forEach(nav => nav.classList.toggle("open"));
-  hamButton.classList.toggle("open");
-  header.classList.toggle("open");
-  headerContainer.classList.toggle("open");
-  image.classList.toggle("close");
-});
+// hamButton.addEventListener("click", () => {
+//   navigation.forEach(nav => nav.classList.toggle("open"));
+//   hamButton.classList.toggle("open");
+//   header.classList.toggle("open");
+//   headerContainer.classList.toggle("open");
+//   image.classList.toggle("close");
+// });
+
+import { initializeHeaderAndFooter } from "./header-and-footer-module.js";
+initializeHeaderAndFooter();
 
 const filterButtons = document.querySelector(".filterButtons");
 
@@ -116,7 +119,7 @@ const displayRecipes = (recipes) => {
       let servings = document.createElement("h3");
       
       let yieldDiv = document.createElement("div");
-      let yield = document.createElement("h3");
+      let yieldInfo = document.createElement("h3");
 
       let buttonDiv = document.createElement("div");
       let button = document.createElement("button");
@@ -139,7 +142,7 @@ const displayRecipes = (recipes) => {
       addTime.innerHTML = `<span>Additional Time:</span> <p>${recipe.additionalTime || 'N/A'}</p>`;
       totalTime.innerHTML = `<span>Total Time:</span> <p>${recipe.totalTime}</p>`;
       servings.innerHTML = `<span>Servings:</span> <p>${recipe.serving}</p>`;
-      yield.innerHTML = `<span>Yield:</span> <p>${recipe.yield || 'N/A'}</p>`;
+      yieldInfo.innerHTML = `<span>Yield:</span> <p>${recipe.yield || 'N/A'}</p>`;
       button.textContent = "View Recipe ";
 
       section.classList.add("card-section");
@@ -169,7 +172,7 @@ const displayRecipes = (recipes) => {
       addTimeDiv.appendChild(addTime);
       totalTimeDiv.appendChild(totalTime);
       servingsDiv.appendChild(servings);
-      yieldDiv.appendChild(yield);
+      yieldDiv.appendChild(yieldInfo);
       buttonDiv.appendChild(button);
       recipeDetailsDiv.appendChild(prepTimeDiv);
       recipeDetailsDiv.appendChild(cookTimeDiv);

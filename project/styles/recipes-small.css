@@ -266,6 +266,10 @@ ul {
   padding: .8rem .8rem .8rem 0;
 }
 
+.ingredients {
+  padding: 1rem 0;
+}
+
 .directions h2 {
   padding: 1rem 0;
 }

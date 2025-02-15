@@ -192,20 +192,17 @@ const displayRecipes = (recipes) => {
       button.addEventListener("click", () => {
         if (openSection && openSection !== section) {
           openSection.querySelector(".recipe-info").innerHTML = "";
-          openSection.nextElementSibling.innerHTML = "";
+          openSection.querySelector(".recipe-info").innerHTML = "";
           openSection.querySelector("button").classList.remove("open");
         }
 
         if (openSection === section) {
           recipeInfoDiv.innerHTML = "";
-          // reviewInfoDiv.innerHTML = "";
           openSection = null;
           button.classList.remove("open");
         } else {
           recipeInfoDiv.innerHTML = "";
-          // reviewInfoDiv.innerHTML = "";
           displayDetails(recipe, recipeInfoDiv);
-          // displayReviews(recipe, reviewInfoDiv);
           openSection = section;
           button.classList.add("open");
         }
